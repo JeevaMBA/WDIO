@@ -7,41 +7,41 @@ import LOG, { getLogger } from "log4js";
 import {ReportGenerator, HtmlReporter} from 'wdio-html-nice-reporter';
 let reportAggregator: ReportGenerator;
 
-LOG.configure({
-    appenders: {
-        fileLog: {
-            type: 'file',
-            filename: "logs/html-reporter.log",
-            maxLogSize: 5000000,
-            level: 'debug'
-        },
-        debugLog: {
-            type: 'file',
-            filename: "logs/debug-html-reporter.log",
-            maxLogSize: 5000000,
-            level: 'debug'
-        },
-        'out': {
-            type: 'stdout',
-            layout: {
-                type: "colored"
-            }
-        },
-        'filterOut': {
-            type: 'stdout',
-            layout: {
-                type: "colored"
-            },
-            level: 'info'
-        }
-    },
-    categories: {
-        file: {appenders: ['fileLog'], level: 'info'},
-        default: {appenders: ['out', 'fileLog'], level: 'info'},
-        console: {appenders: ['out'], level: 'info'},
-        debug: {appenders: ['debugLog'], level: 'debug'}
-    }
-});
+// LOG.configure({
+//     appenders: {
+//         fileLog: {
+//             type: 'file',
+//             filename: "logs/html-reporter.log",
+//             maxLogSize: 5000000,
+//             level: 'debug'
+//         },
+//         debugLog: {
+//             type: 'file',
+//             filename: "logs/debug-html-reporter.log",
+//             maxLogSize: 5000000,
+//             level: 'debug'
+//         },
+//         'out': {
+//             type: 'stdout',
+//             layout: {
+//                 type: "colored"
+//             }
+//         },
+//         'filterOut': {
+//             type: 'stdout',
+//             layout: {
+//                 type: "colored"
+//             },
+//             level: 'info'
+//         }
+//     },
+//     categories: {
+//         file: {appenders: ['fileLog'], level: 'info'},
+//         default: {appenders: ['out', 'fileLog'], level: 'info'},
+//         console: {appenders: ['out'], level: 'info'},
+//         debug: {appenders: ['debugLog'], level: 'debug'}
+//     }
+// });
 
 //pick the category above to match the output you want.
 let logger = LOG.getLogger("default");
@@ -201,21 +201,21 @@ export const config: Options.Testrunner = {
         disableWebdriverScreenshotsReporting: false,
         useCucumberStepReporter: true,
     }],
-    ["html-nice", {
-        outputDir: './reports/html-reports/',
-        filename: 'report.html',
-        reportTitle: 'TOZ Report Title',
-        linkScreenshots: true,
-        //to show the report in a browser when done
-        showInBrowser: true,
-        collapseTests: false,
-        //to turn on screenshots after every test
-        useOnAfterCommandForScreenshot: false,
+    // ["html-nice", {
+    //     outputDir: './reports/html-reports/',
+    //     filename: 'report.html',
+    //     reportTitle: 'TOZ Report Title',
+    //     linkScreenshots: true,
+    //     //to show the report in a browser when done
+    //     showInBrowser: true,
+    //     collapseTests: false,
+    //     //to turn on screenshots after every test
+    //     useOnAfterCommandForScreenshot: false,
 
-        //to initialize the logger
-        LOG: logger
-     }
-    ]
+    //     //to initialize the logger
+    //     LOG: logger
+    //  }
+    // ]
 ],
 
 
