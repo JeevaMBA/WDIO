@@ -20,7 +20,7 @@ jobs:
       DEV_EMP1_USERNAME: ${{secrets.DEV_EMP1_USERNAME}}
     steps:
       - name: Install Chromium
-        run: sudo apt-get install Chrome
+        run: sudo apt-get install Google-Chrome
       - uses: actions/checkout@v3
       - name: Use Node.js
         uses: actions/setup-node@v3
