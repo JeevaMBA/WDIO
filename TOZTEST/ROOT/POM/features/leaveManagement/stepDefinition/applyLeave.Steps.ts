@@ -78,11 +78,6 @@ Then(
 When(
   /^The user opened the (.*) form with (.*) profile$/,
   async (FormType, UserType) => {
-    try {
-      
-    } catch (error) {
-      
-    }
     await applyLeavepage.GblSearch.setValue(FormType);
     await applyLeavepage.GblSearchSelector.click();
   }
@@ -91,21 +86,21 @@ When(
 Then(
   /^The user is able to see self, Team member & Employee radio buttons in form$/,
   async () => {
-    let rediobtn = await applyLeavepage.btnSelfRedio
+    let rediobtn = await applyLeavepage.btnSelfRedio;
     chai.expect(rediobtn).to.be.exist;
     reporter.addStep(
       "TOZ_LM_001",
       "info",
       "The user is able to see Self radio button in form"
     );
-    let rediobtn1 = await applyLeavepage.btnTeamMeRedio
+    let rediobtn1 = await applyLeavepage.btnTeamMeRedio;
     chai.expect(rediobtn1).to.be.exist;
     reporter.addStep(
       "TOZ_LM_001",
       "info",
       "The user is able to see Team member radio button in form"
     );
-    let rediobtn2 = await applyLeavepage.btnEmpRedio
+    let rediobtn2 = await applyLeavepage.btnEmpRedio;
     chai.expect(rediobtn2).to.be.exist;
     reporter.addStep(
       "TOZ_LM_001",
@@ -118,14 +113,14 @@ Then(
 Then(
   /^The user is able to see self and Team member radio buttons in form$/,
   async () => {
-    let rediobtn = await applyLeavepage.btnSelfRedio
+    let rediobtn = await applyLeavepage.btnSelfRedio;
     chai.expect(rediobtn).to.be.exist;
     reporter.addStep(
       "TOZ_LM_002",
       "info",
       "The user is able to see Self radio button in form"
     );
-    let rediobtn1 = await applyLeavepage.btnTeamMeRedio
+    let rediobtn1 = await applyLeavepage.btnTeamMeRedio;
     chai.expect(rediobtn1).to.be.exist;
     reporter.addStep(
       "TOZ_LM_002",
@@ -135,32 +130,29 @@ Then(
   }
 );
 
-Then(
-  /^The user is not able to see any radio button in form$/,
-  async () => {
-    // let rediobtn2 = await applyLeavepage.btnEmpRedio
-    // chai.AssertionError(rediobtn2).not.to.be.exist;
-    // reporter.addStep(
-    //   "TOZ_LM_002",
-    //   "info",
-    //   "The user is not able to see employee radio button in form"
-    // );
-    // let rediobtn1 = await applyLeavepage.btnTeamMeRedio
-    //  chai.expect(rediobtn1).not.to.be.exist;
-    // reporter.addStep(
-    //   "TOZ_LM_002",
-    //   "info",
-    //   "The user is not able to see Team member radio button in form"
-    // );
-    // let rediobtn = await applyLeavepage.btnSelfRedio
-    // chai.expect(rediobtn).not.to.be.exist;
-    // reporter.addStep(
-    //   "TOZ_LM_003",
-    //   "info",
-    //   "The user is not able to see Self radio button in form"
-    // );
-  }
-);
+Then(/^The user is not able to see any radio button in form$/, async () => {
+  // let rediobtn2 = await applyLeavepage.btnEmpRedio
+  // chai.AssertionError(rediobtn2).not.to.be.exist;
+  // reporter.addStep(
+  //   "TOZ_LM_002",
+  //   "info",
+  //   "The user is not able to see employee radio button in form"
+  // );
+  // let rediobtn1 = await applyLeavepage.btnTeamMeRedio
+  //  chai.expect(rediobtn1).not.to.be.exist;
+  // reporter.addStep(
+  //   "TOZ_LM_002",
+  //   "info",
+  //   "The user is not able to see Team member radio button in form"
+  // );
+  // let rediobtn = await applyLeavepage.btnSelfRedio
+  // chai.expect(rediobtn).not.to.be.exist;
+  // reporter.addStep(
+  //   "TOZ_LM_003",
+  //   "info",
+  //   "The user is not able to see Self radio button in form"
+  // );
+});
 
 // Next scenario starts here********************************
 
@@ -174,12 +166,23 @@ Given(
 Then(/^the user selected (.*) from the list item$/, async (LeaveType) => {
   await applyLeavepage.dpdnLeaveType.click();
   // await applyLeavepage.dpdnInputBox.click();
-  
-  await applyLeavepage.dpdnMdimInputBox.setValue(LeaveType);
+
+  let inputXpath = await applyLeavepage.dpdnBigInputBox;
+  let inputYPath = await inputXpath.isExisting();
+  if (inputYPath === true) {
+    await applyLeavepage.dpdnBigInputBox.setValue(LeaveType);
+  } else {
+    let inputMpath = await applyLeavepage.dpdnMdimInputBox;
+    let inputNPath = await inputMpath.isExisting();
+    if (inputNPath === true) {
+      await applyLeavepage.dpdnMdimInputBox.setValue(LeaveType);
+    } else {
+      await applyLeavepage.dpdnSmlInputBox.setValue(LeaveType);
+    }
+  }
   await applyLeavepage.selectFirstItemListdpdn.click();
   // await browser.pause(4000);
-}
-);
+});
 
 Then(
   /^the user selected (.*) and (.*) as today and tomorrow respectively$/,
@@ -188,8 +191,8 @@ Then(
       const dateCopy = new Date(date.getTime());
       const nextMonday = new Date(
         dateCopy.setDate(
-          dateCopy.getDate() + ((7 - dateCopy.getDay() + 1) % 7 || 7),
-        ),
+          dateCopy.getDate() + ((7 - dateCopy.getDay() + 1) % 7 || 7)
+        )
       );
       return nextMonday;
     }
@@ -197,46 +200,53 @@ Then(
       const dateCopy1 = new Date(date.getTime());
       const nextTuesday = new Date(
         dateCopy1.setDate(
-          dateCopy1.getDate() + ((7 - dateCopy1.getDay() + 2) % 7 || 8),
-        ),
+          dateCopy1.getDate() + ((7 - dateCopy1.getDay() + 2) % 7 || 8)
+        )
       );
       return nextTuesday;
     }
     let ComingMonday = getNextMonday().toLocaleDateString("en-GB");
     let ComingTuesday = getNextTuesday().toLocaleDateString("en-GB");
 
-/** today and tomorrow date coding starts here */
+    /** today and tomorrow date coding starts here */
     function getTomorrow(date = new Date()) {
       const dateCopy = new Date(date.getTime());
-      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 1))
+      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 1));
       return nextMonday;
     }
-    let tomorrwDate = (getTomorrow().toLocaleDateString("en-GB"))
+    let tomorrwDate = getTomorrow().toLocaleDateString("en-GB");
     console.log(`${tomorrwDate}`);
-  
 
     function getToday(date = new Date()) {
       const dateCopy1 = new Date(date.getTime());
-      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 1))
+      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 1));
       return nextMonday1;
     }
-    let todayDate = (getToday().toLocaleDateString("en-GB")); 
+    let todayDate = getToday().toLocaleDateString("en-GB");
     console.log(`${todayDate}`);
 
     await browser.pause(1000);
     await applyLeavepage.inptFromDate.setValue(todayDate);
     await browser.pause(1000);
     let fmdate = await applyLeavepage.inptFromDate.getValue();
-    chai.expect(todayDate).to.equal(fmdate)
-    reporter.addStep("TOZ_LM_002", "info", "The date format is correct as DD/MM/YYYY in From Date field")
-    
+    chai.expect(todayDate).to.equal(fmdate);
+    reporter.addStep(
+      "TOZ_LM_002",
+      "info",
+      "The date format is correct as DD/MM/YYYY in From Date field"
+    );
+
     await applyLeavepage.inptToDate.setValue(tomorrwDate);
     let todate = await applyLeavepage.inptToDate.getValue();
     chai.expect(tomorrwDate).to.equal(todate);
-    reporter.addStep("TOZ_LM_002", "info", "The date format is correct as DD/MM/YYYY in To Date field")
+    reporter.addStep(
+      "TOZ_LM_002",
+      "info",
+      "The date format is correct as DD/MM/YYYY in To Date field"
+    );
     await browser.pause(1000);
 
-/** today and tomorrow date coding ends here */
+    /** today and tomorrow date coding ends here */
 
     // await applyLeavepage.inptFromDate.setValue(ComingMonday);
     // let fmdate = await applyLeavepage.inptFromDate.getValue();
@@ -251,8 +261,7 @@ Then(
 );
 
 Then(/^the user selected approver from manager list$/, async () => {
-  
-  let isappoverthere = await applyLeavepage.linkSelectApprover
+  let isappoverthere = await applyLeavepage.linkSelectApprover;
   let isExisting = await isappoverthere.isExisting();
 
   if (isExisting === true) {
@@ -260,14 +269,21 @@ Then(/^the user selected approver from manager list$/, async () => {
     await applyLeavepage.firstBoxItemSelectApprover.click();
     await applyLeavepage.btnAssign.click();
   } else {
-    reporter.addStep("TOZ_LM_002", "info", "There is no approver link to select")
+    reporter.addStep(
+      "TOZ_LM_002",
+      "info",
+      "There is no approver link to select"
+    );
   }
 });
 
 Then(/^the user entered remarks textbox and Comments fields$/, async () => {
-  
-  await applyLeavepage.inptRemarksAL.setValue("Please approve my leave request");
-  await applyLeavepage.inptCommentsAL.setValue("Please approve my leave request");
+  await applyLeavepage.inptRemarksAL.setValue(
+    "Please approve my leave request"
+  );
+  await applyLeavepage.inptCommentsAL.setValue(
+    "Please approve my leave request"
+  );
 });
 
 When(/^the user clicked on submit button$/, async () => {
@@ -279,16 +295,16 @@ Then(
   /^the user got success notification message in top of the application$/,
   async () => {
     await browser.pause(2000);
-    await applyLeavepage.notytopalert.waitForDisplayed({timeout: 6000});
+    await applyLeavepage.notytopalert.waitForDisplayed({ timeout: 6000 });
     let notificationMessage = await applyLeavepage.successNotifyMsg.getText();
     let isDisplayedTXT = await applyLeavepage.notytopalert.getText();
     console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${isDisplayedTXT}`);
-    chai.expect(notificationMessage).to.equal("Request submitted for approval successfully.");
+    chai
+      .expect(notificationMessage)
+      .to.equal("Request submitted for approval successfully.");
     await browser.pause(2000);
     await browser.takeScreenshot();
     await browser.pause(4000);
-    
-    
   }
 );
 
