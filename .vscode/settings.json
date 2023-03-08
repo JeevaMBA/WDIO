@@ -1,0 +1,7 @@
+{
+    "cucumberautocomplete.steps":["./TOZTEST/ROOT/POM/features/*/stepDefinition/*.ts"],
+    "cucumberautocomplete.syncfeatures":"./TOZTEST/ROOT/POM/features/*/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": true,  
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+}

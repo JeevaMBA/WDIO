@@ -1,0 +1,80 @@
+[2023-03-06T11:28:54.840] [INFO] debug - Report Aggregation started
+[2023-03-06T11:28:54.858] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T11:28:54.860] [INFO] debug - Aggregated 1 specs, 1 suites, 
+[2023-03-06T11:28:54.861] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T11:28:54.970] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T11:28:54.971] [INFO] debug - Json Generation Completed
+[2023-03-06T11:28:54.974] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-06T11:28:55.014] [INFO] debug - Html Generation Completed
+[2023-03-06T11:28:55.031] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-06T11:28:55.041] [INFO] debug - browser launched
+[2023-03-06T11:28:55.041] [INFO] debug - Report Aggregation completed
+[2023-03-06T11:39:16.035] [INFO] debug - Report Aggregation started
+[2023-03-06T11:39:16.063] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T11:39:16.064] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T11:39:16.065] [INFO] debug - Aggregated 2 specs, 2 suites, 
+[2023-03-06T11:39:16.065] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T11:39:16.217] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T11:39:16.218] [INFO] debug - Json Generation Completed
+[2023-03-06T11:39:16.220] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-06T11:39:16.249] [INFO] debug - Html Generation Completed
+[2023-03-06T11:39:16.265] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-06T11:39:16.274] [INFO] debug - browser launched
+[2023-03-06T11:39:16.275] [INFO] debug - Report Aggregation completed
+[2023-03-06T19:52:00.447] [INFO] debug - Report Aggregation started
+[2023-03-06T19:52:00.467] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T19:52:00.468] [INFO] debug - Aggregated 1 specs, 1 suites, 
+[2023-03-06T19:52:00.468] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:52:00.583] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:52:00.584] [INFO] debug - Json Generation Completed
+[2023-03-06T19:52:00.585] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-06T19:52:00.617] [INFO] debug - Html Generation Completed
+[2023-03-06T19:52:00.631] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-06T19:52:00.643] [INFO] debug - browser launched
+[2023-03-06T19:52:00.643] [INFO] debug - Report Aggregation completed
+[2023-03-06T19:54:23.587] [INFO] debug - Report Aggregation started
+[2023-03-06T19:54:23.604] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T19:54:23.606] [INFO] debug - Aggregated 1 specs, 1 suites, 
+[2023-03-06T19:54:23.606] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:54:23.724] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:54:23.725] [INFO] debug - Json Generation Completed
+[2023-03-06T19:54:23.727] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-06T19:54:23.757] [INFO] debug - Html Generation Completed
+[2023-03-06T19:54:23.769] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-06T19:54:23.780] [INFO] debug - browser launched
+[2023-03-06T19:54:23.780] [INFO] debug - Report Aggregation completed
+[2023-03-06T19:55:03.827] [INFO] debug - Report Aggregation started
+[2023-03-06T19:55:03.861] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T19:55:03.862] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T19:55:03.862] [INFO] debug - Aggregated 2 specs, 2 suites, 
+[2023-03-06T19:55:03.863] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:55:04.029] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:55:04.029] [INFO] debug - Json Generation Completed
+[2023-03-06T19:55:04.031] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-06T19:55:04.057] [INFO] debug - Html Generation Completed
+[2023-03-06T19:55:04.073] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-06T19:55:04.085] [INFO] debug - browser launched
+[2023-03-06T19:55:04.086] [INFO] debug - Report Aggregation completed
+[2023-03-06T19:55:24.586] [INFO] debug - Report Aggregation started
+[2023-03-06T19:55:24.606] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-06T19:55:24.608] [INFO] debug - Aggregated 1 specs, 1 suites, 
+[2023-03-06T19:55:24.609] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:55:24.721] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-06T19:55:24.722] [INFO] debug - Json Generation Completed
+[2023-03-06T19:55:24.724] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-06T19:55:24.749] [INFO] debug - Html Generation Completed
+[2023-03-06T19:55:24.762] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-06T19:55:24.772] [INFO] debug - browser launched
+[2023-03-06T19:55:24.772] [INFO] debug - Report Aggregation completed
+[2023-03-07T23:46:01.716] [INFO] debug - Report Aggregation started
+[2023-03-07T23:46:01.791] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-07T23:46:01.792] [INFO] debug - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-07T23:46:01.794] [INFO] debug - Aggregated 2 specs, 2 suites, 
+[2023-03-07T23:46:01.795] [INFO] debug - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-07T23:46:02.101] [INFO] debug - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\master-report.json
+[2023-03-07T23:46:02.101] [INFO] debug - Json Generation Completed
+[2023-03-07T23:46:02.103] [INFO] debug - Html Generation started in C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter
+[2023-03-07T23:46:02.136] [INFO] debug - Html Generation Completed
+[2023-03-07T23:46:02.155] [INFO] debug - copyied css : C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\wdio-html-nice-reporter\css\ to C:\Users\JeevaSubramanian\Documents\WorkingWDIO\reports\html-reports\
+[2023-03-07T23:46:02.170] [INFO] debug - browser launched
+[2023-03-07T23:46:02.170] [INFO] debug - Report Aggregation completed

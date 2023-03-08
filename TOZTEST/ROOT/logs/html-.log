@@ -1,0 +1,24 @@
+[2023-02-28T23:13:54.683] [INFO] default - onRunnerStart: 0-0
+[2023-02-28T23:13:55.069] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-02-28T23:13:55.109] [INFO] default - onSuiteStart: 0-0:0
+[2023-02-28T23:13:55.110] [INFO] default - onHookStart: 0-0:25
+[2023-02-28T23:13:55.112] [INFO] default - onHookEnd: 0-0:25
+[2023-02-28T23:13:55.114] [INFO] default - onTestStart: 0-0:8
+[2023-02-28T23:13:59.425] [INFO] default - onTestPass: 0-0:8
+[2023-02-28T23:13:59.431] [INFO] default - onTestStart: 0-0:9
+[2023-02-28T23:14:00.426] [INFO] default - onTestPass: 0-0:9
+[2023-02-28T23:14:00.427] [INFO] default - onTestStart: 0-0:10
+[2023-02-28T23:14:00.730] [INFO] default - onTestPass: 0-0:10
+[2023-02-28T23:14:00.732] [INFO] default - onTestStart: 0-0:11
+[2023-02-28T23:14:03.089] [INFO] default - onTestPass: 0-0:11
+[2023-02-28T23:14:03.090] [INFO] default - onHookStart: 0-0:30
+[2023-02-28T23:14:03.091] [INFO] default - onHookEnd: 0-0:30
+[2023-02-28T23:14:03.092] [INFO] default - onSuiteEnd: 0-0:0
+[2023-02-28T23:14:03.111] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-02-28T23:14:03.207] [INFO] default - onRunnerEnd: 0-0
+[2023-02-28T23:14:03.208] [INFO] default - Report Generation started
+[2023-02-28T23:14:03.209] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-02-28T23:14:03.211] [INFO] default - Included metrics for suite: 0-0 0
+[2023-02-28T23:14:03.212] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-02-28T23:14:03.213] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\TOZTEST\ROOT\html-reports\report-0-0.json
+[2023-02-28T23:14:03.316] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Documents\WorkingWDIO\TOZTEST\ROOT\html-reports\report-0-0.json

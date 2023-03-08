@@ -1,0 +1,22 @@
+
+> smoke
+> set DEBUG=N&&set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@smoke'
+
+
+Execution of 1 workers started at 2023-02-21T16:28:04.583Z
+
+[0-0] RUNNING in chrome - file:///C:/Users/JeevaSubramanian/Documents/WorkingWDIO/TOZTEST/ROOT/POM/features/moduleNames/login.feature
+[0-0] [[32mINFO[39m]: >> Opening the login page  for the user
+[0-0] [[32mINFO[39m]: >> Opening the login page  for the user
+[0-0] Error in "0: Then I should see a flash message saying You logged into a secure area!"
+Error: function timed out, ensure the promise resolves within 60000 milliseconds
+    at Timeout.<anonymous> (C:\Users\JeevaSubramanian\Documents\WorkingWDIO\node_modules\@cucumber\cucumber\src\time.ts:60:14)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7)
+[0-0] [[32mINFO[39m]: >> Opening the login page  for the user
+[0-0] [[32mINFO[39m]: >> Opening the login page  for the user
+
+
+Ending WebDriver sessions gracefully ...
+(press ctrl+c again to hard kill the runner)
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
