@@ -298,11 +298,11 @@ Then(
     await applyLeavepage.notytopalert.waitForDisplayed({ timeout: 6000 });
     let notificationMessage = await applyLeavepage.successNotifyMsg.getText();
     let isDisplayedTXT = await applyLeavepage.notytopalert.getText();
-    console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${isDisplayedTXT}`);
     
-    let alreadyapplied = await applyLeavepage.successNotifyMsgTxt
-    let alreadyappliedVerifying = await alreadyapplied.isExisting();
-    console.log(`The user is able to apply leave. However, ${alreadyappliedVerifying}`);
+    // console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${isDisplayedTXT}`);
+    // let alreadyapplied = await applyLeavepage.successNotifyMsgTxt
+    // let alreadyappliedVerifying = await alreadyapplied.isExisting();
+    console.log(`The user is able to apply leave. However, ${isDisplayedTXT}`);
     reporter.addStep("TOZ_LM_004", "info", "The user is able to apply leave. However, ${alreadyappliedVerifying}")
     // if (alreadyappliedVerifying === true) {
     //    reporter.addStep("TOZ_LM_004", "info", `>>>>>>>>>>>>>>>>>>>The user is able to apply leave. However, on day leave already applied<<<<<<<<<<<<<<<<<<`)
