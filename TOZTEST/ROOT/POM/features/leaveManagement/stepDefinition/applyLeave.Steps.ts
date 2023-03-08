@@ -15,10 +15,7 @@ Given(
   /^User is able login with admin profile in TOZ application$/,
   async () => {
     await LoggingPage.open();
-    await LoggingPage.logging(
-      process.env.DEV_ADMIN_USERNAME,
-      process.env.DF_PASSWORD
-    );
+    await LoggingPage.logging(process.env.DEV_ADMIN_USERNAME,process.env.DF_PASSWORD);
     reporter.addStep(
       "TOZ_LM_001",
       "info",
@@ -31,9 +28,7 @@ Given(
   /^User is able login with manager profile in TOZ application$/,
   async () => {
     await LoggingPage.open();
-    await LoggingPage.logging(
-      process.env.DEV_MNGR_USERNAME,
-      process.env.DF_PASSWORD
+    await LoggingPage.logging(process.env.DEV_MNGR_USERNAME,process.env.DF_PASSWORD
     );
     reporter.addStep(
       "TOZ_LM_002",
@@ -47,9 +42,7 @@ Given(
   /^User is able login with employee profile in TOZ application$/,
   async () => {
     await LoggingPage.open();
-    await LoggingPage.logging(
-      process.env.DEV_EMP_USERNAME,
-      process.env.DF_PASSWORD
+    await LoggingPage.logging(process.env.DEV_EMP_USERNAME,process.env.DF_PASSWORD
     );
     reporter.addStep(
       "TOZ_LM_003",
@@ -303,7 +296,7 @@ Then(
     // let alreadyapplied = await applyLeavepage.successNotifyMsgTxt
     // let alreadyappliedVerifying = await alreadyapplied.isExisting();
     console.log(`The user is able to apply leave. However, ${isDisplayedTXT}`);
-    reporter.addStep("TOZ_LM_004", "info", 'The user is able to apply leave. However, ', isDisplayedTXT, )
+    reporter.addStep("TOZ_LM_004", "info", 'The user is able to apply leave.')
     // if (alreadyappliedVerifying === true) {
     //    reporter.addStep("TOZ_LM_004", "info", `>>>>>>>>>>>>>>>>>>>The user is able to apply leave. However, on day leave already applied<<<<<<<<<<<<<<<<<<`)
     // } else {
