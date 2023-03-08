@@ -116,7 +116,7 @@ export const config: Options.Testrunner = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
         "goog:chromeOptions":{
-            args: headless.toUpperCase() ==="Y" ? ["--disable-web-security", "--headless", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080"] : ["--disable-web-security",
+            args: headless ==="Y" ? ["--disable-web-security", "--headless", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080"] : ["--disable-web-security",
             "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080"]
         },
         timeouts: { implicit: 30000, pageLoad: 30000, script: 40000 },
@@ -132,7 +132,7 @@ export const config: Options.Testrunner = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: debug.toUpperCase()==="Y" ? 'info' : 'error',
+    logLevel: debug ==="Y" ? 'info' : 'error',
     //
     // Set specific log levels per logger
     // loggers:
