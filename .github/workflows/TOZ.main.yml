@@ -12,7 +12,6 @@ jobs:
     env:
       RUNNER: ${{secrets.RUNNER}}
       LOG_LEVEL: ${{secrets.LOG_LEVEL}}
-      #TOZ_DEV_USER
       DEV_ADMIN_USERNAME: ${{secrets.DEV_ADMIN_USERNAME}}
       DF_PASSWORD: ${{secrets.DF_PASSWORD}}
       DEV_MNGR_USERNAME: ${{secrets.DEV_MNGR_USERNAME}}
@@ -26,5 +25,5 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: npm install
-      - name: Running tests
+      - name: Executing tests
         run: npm run TestRun
