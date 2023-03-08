@@ -1,4 +1,5 @@
-/.env
 /allure-report
 node_modules
 /node_modules
+reports\html-reports\master-report.html
+reports\html-reports\master-report.html
