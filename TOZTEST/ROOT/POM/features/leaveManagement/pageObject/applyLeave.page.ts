@@ -175,6 +175,10 @@ class applyLeavepage extends Page {
     return $("//div[@id='fbNewComp_feedback']//div");
   }
 
+  public get successNotifyMsgTxt() {
+    return $("//div[@id='fbNewComp_feedback']//div[text()='A leave has been already applied in the specified duration']");
+  }
+
   public get iconCloseTopMsg() {
     return $("//div[@id='fbNewAssign']//a[@id='fbNewAssign_Close']");
   }

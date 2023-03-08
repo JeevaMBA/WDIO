@@ -299,6 +299,16 @@ Then(
     let notificationMessage = await applyLeavepage.successNotifyMsg.getText();
     let isDisplayedTXT = await applyLeavepage.notytopalert.getText();
     console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${isDisplayedTXT}`);
+    
+    let alreadyapplied = await applyLeavepage.successNotifyMsgTxt
+    let alreadyappliedVerifying = alreadyapplied.isExisting();
+
+    if (alreadyappliedVerifying === true) {
+       reporter.addStep("TOZ_LM_004", "info", `The user is able to apply leave. However, on day leave already applied`)
+    } else {
+      chai.expect(notificationMessage).to.equal("Request submitted for approval successfully.");
+    }
+
     chai
       .expect(notificationMessage)
       .to.equal("Request submitted for approval successfully.");
