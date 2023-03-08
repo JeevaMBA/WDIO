@@ -24,7 +24,7 @@
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
     "debug": "set DEBUG=Y&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@debug'",
-    "TestRun": "set DEBUG=Y&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@TestRun'",
+    "TestRun": "set DEBUG=Y&&set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@TestRun'",
     "smoke": "set DEBUG=N&&set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@smoke'",
     "sanity": "set DEBUG=N&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@sanity'",
     "report": "node node_modules/wdio-html-nice-reporter/lib/makeReport.js master-report.html 'reports/html-reports/'"
