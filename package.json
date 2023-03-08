@@ -11,7 +11,7 @@
     "@wdio/spec-reporter": "^8.3.x",
     "allure-commandline": "^2.21.0",
     "chai": "^4.3.7",
-    "chromedriver": "^111.0.5563.65",
+    "chromedriver": "^111.0.x",
     "dotenv": "^16.0.3",
     "log4js": "^6.8.0",
     "ts-node": "^10.9.1",
