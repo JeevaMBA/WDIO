@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: windows-latest
     env:
       RUNNER: ${{secrets.RUNNER}}
       LOG_LEVEL: ${{secrets.LOG_LEVEL}}
@@ -20,7 +20,7 @@ jobs:
       DEV_EMP1_USERNAME: ${{secrets.DEV_EMP1_USERNAME}}
     steps:
       - name: Install Chromium
-        run: sudo apt-get install google-chrome-stable
+        run: choco install googlechrome
       - uses: actions/checkout@v3
       - name: Use Node.js
         uses: actions/setup-node@v3
