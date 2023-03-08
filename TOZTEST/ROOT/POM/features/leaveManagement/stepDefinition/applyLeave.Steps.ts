@@ -302,6 +302,7 @@ Then(
     
     let alreadyapplied = await applyLeavepage.successNotifyMsgTxt
     let alreadyappliedVerifying = alreadyapplied.isExisting();
+    console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${alreadyappliedVerifying}`);
     if (alreadyappliedVerifying === true) {
        reporter.addStep("TOZ_LM_004", "info", `>>>>>>>>>>>>>>>>>>>The user is able to apply leave. However, on day leave already applied<<<<<<<<<<<<<<<<<<`)
     } else {
