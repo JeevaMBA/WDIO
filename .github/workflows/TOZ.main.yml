@@ -20,7 +20,10 @@ jobs:
       DEV_EMP1_USERNAME: ${{secrets.DEV_EMP1_USERNAME}}
     steps:
       - name: Install Chromium
-        run: sudo apt-get install chromium-browser
+        run: sudo apt-get update 
+        run: sudo apt-get install google-chrome-stable
+        run: wget http://chromedriver.storage.googleapis.com/110.0.5481.30/chromedriver_linux64.zip
+        run: unzip chromedriver_linux64.zip
       - uses: actions/checkout@v3
       - name: Use Node.js
         uses: actions/setup-node@v3
