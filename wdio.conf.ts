@@ -7,41 +7,41 @@ import LOG, { getLogger } from "log4js";
 import {ReportGenerator, HtmlReporter} from 'wdio-html-nice-reporter';
 let reportAggregator: ReportGenerator;
 
-LOG.configure({
-    appenders: {
-        fileLog: {
-            type: 'file',
-            filename: "logs/html-reporter.log",
-            maxLogSize: 5000000,
-            level: 'debug'
-        },
-        debugLog: {
-            type: 'file',
-            filename: "logs/debug-html-reporter.log",
-            maxLogSize: 5000000,
-            level: 'debug'
-        },
-        'out': {
-            type: 'stdout',
-            layout: {
-                type: "colored"
-            }
-        },
-        'filterOut': {
-            type: 'stdout',
-            layout: {
-                type: "colored"
-            },
-            level: 'info'
-        }
-    },
-    categories: {
-        file: {appenders: ['fileLog'], level: 'info'},
-        default: {appenders: ['out', 'fileLog'], level: 'info'},
-        console: {appenders: ['out'], level: 'info'},
-        debug: {appenders: ['debugLog'], level: 'debug'}
-    }
-});
+// LOG.configure({
+//     appenders: {
+//         fileLog: {
+//             type: 'file',
+//             filename: "logs/html-reporter.log",
+//             maxLogSize: 5000000,
+//             level: 'debug'
+//         },
+//         debugLog: {
+//             type: 'file',
+//             filename: "logs/debug-html-reporter.log",
+//             maxLogSize: 5000000,
+//             level: 'debug'
+//         },
+//         'out': {
+//             type: 'stdout',
+//             layout: {
+//                 type: "colored"
+//             }
+//         },
+//         'filterOut': {
+//             type: 'stdout',
+//             layout: {
+//                 type: "colored"
+//             },
+//             level: 'info'
+//         }
+//     },
+//     categories: {
+//         file: {appenders: ['fileLog'], level: 'info'},
+//         default: {appenders: ['out', 'fileLog'], level: 'info'},
+//         console: {appenders: ['out'], level: 'info'},
+//         debug: {appenders: ['debugLog'], level: 'debug'}
+//     }
+// });
 
 //pick the category above to match the output you want.
 let logger = LOG.getLogger("default");
@@ -201,21 +201,21 @@ export const config: Options.Testrunner = {
         disableWebdriverScreenshotsReporting: false,
         useCucumberStepReporter: true,
     }],
-    ["html-nice", {
-        outputDir: './reports/html-reports/',
-        filename: 'report.html',
-        reportTitle: 'TOZ Report Title',
-        linkScreenshots: true,
-        //to show the report in a browser when done
-        showInBrowser: true,
-        collapseTests: false,
-        //to turn on screenshots after every test
-        useOnAfterCommandForScreenshot: false,
+    // ["html-nice", {
+    //     outputDir: './reports/html-reports/',
+    //     filename: 'report.html',
+    //     reportTitle: 'TOZ Report Title',
+    //     linkScreenshots: true,
+    //     //to show the report in a browser when done
+    //     showInBrowser: true,
+    //     collapseTests: false,
+    //     //to turn on screenshots after every test
+    //     useOnAfterCommandForScreenshot: false,
 
-        //to initialize the logger
-        LOG: logger
-     }
-    ]
+    //     //to initialize the logger
+    //     LOG: logger
+    //  }
+    // ]
 ],
 
 
@@ -260,12 +260,12 @@ export const config: Options.Testrunner = {
      * @param {Array.<Object>} capabilities list of capabilities details
      */
     onPrepare: function (config, capabilities) {
-        if(process.env.RUNNER === 'Local' && fs.existsSync("allure-results")) {
-            fs.rmdirSync("allure-results", {recursive:true})
-        };
-        if(process.env.RUNNER === 'Local' && fs.existsSync("./reports/html-reports/master-report.json")) {
-            fs.rmdirSync("./reports/html-reports/master-report.json", {recursive:true})
-        };        
+        // if(process.env.RUNNER === 'Local' && fs.existsSync("allure-results")) {
+        //     fs.rmdirSync("allure-results", {recursive:true})
+        // };
+        // if(process.env.RUNNER === 'Local' && fs.existsSync("./reports/html-reports/master-report.json")) {
+        //     fs.rmdirSync("./reports/html-reports/master-report.json", {recursive:true})
+        // };        
     },
     /**
      * Gets executed before a worker process is spawned and can be used to initialise specific service
@@ -417,24 +417,24 @@ export const config: Options.Testrunner = {
      * @param {<Object>} results object containing test results
      */
     onComplete: function(exitCode, config, capabilities, results) {
-        const reportError = new Error('Could not generate Allure report')
-        const generation = allure(['generate', 'allure-results' ])
-        return new Promise<void>((resolve, reject) => {
-            const generationTimeout = setTimeout(
-                () => reject(reportError),
-                5000)
+        // const reportError = new Error('Could not generate Allure report')
+        // const generation = allure(['generate', 'allure-results' ])
+        // return new Promise<void>((resolve, reject) => {
+        //     const generationTimeout = setTimeout(
+        //         () => reject(reportError),
+        //         5000)
 
-            generation.on('exit', function(exitCode: number) {
-                clearTimeout(generationTimeout)
+        //     generation.on('exit', function(exitCode: number) {
+        //         clearTimeout(generationTimeout)
 
-                if (exitCode !== 0) {
-                    return reject(reportError)
-                }
+        //         if (exitCode !== 0) {
+        //             return reject(reportError)
+        //         }
 
-                console.log('Allure report successfully generated')
-                resolve()
-            })
-        });
+        //         console.log('Allure report successfully generated')
+        //         resolve()
+        //     })
+        // });
        
     },
     /**
