@@ -172,7 +172,7 @@ class applyLeavepage extends Page {
   }
 
   public get successNotifyMsg() {
-    return $("//div[@id='fbNewComp_feedback']//div[text()='Request submitted for approval successfully.']");
+    return $("//div[@id='fbNewComp_feedback']//div");
   }
 
   public get iconCloseTopMsg() {

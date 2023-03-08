@@ -17,7 +17,7 @@ Given(
     await LoggingPage.open();
     await LoggingPage.logging(
       process.env.DEV_ADMIN_USERNAME,
-      process.env.DEV_ADMIN_PASSWORD
+      process.env.DF_PASSWORD
     );
     reporter.addStep(
       "TOZ_LM_001",
@@ -33,7 +33,7 @@ Given(
     await LoggingPage.open();
     await LoggingPage.logging(
       process.env.DEV_MNGR_USERNAME,
-      process.env.DEV_MNGR_PASSWORD
+      process.env.DF_PASSWORD
     );
     reporter.addStep(
       "TOZ_LM_002",
@@ -49,7 +49,7 @@ Given(
     await LoggingPage.open();
     await LoggingPage.logging(
       process.env.DEV_EMP_USERNAME,
-      process.env.DEV_EMP_PASSWORD
+      process.env.DF_PASSWORD
     );
     reporter.addStep(
       "TOZ_LM_003",
@@ -208,7 +208,7 @@ Then(
 /** today and tomorrow date coding starts here */
     function getTomorrow(date = new Date()) {
       const dateCopy = new Date(date.getTime());
-      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 3))
+      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 1))
       return nextMonday;
     }
     let tomorrwDate = (getTomorrow().toLocaleDateString("en-GB"))
@@ -217,7 +217,7 @@ Then(
 
     function getToday(date = new Date()) {
       const dateCopy1 = new Date(date.getTime());
-      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 3))
+      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 1))
       return nextMonday1;
     }
     let todayDate = (getToday().toLocaleDateString("en-GB")); 

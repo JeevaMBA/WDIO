@@ -1,0 +1,329 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1678270787333' stop='1678270899859'>
+    <name>Open a leave form using admin profile and submit a leave request</name>
+    <title>Open a leave form using admin profile and submit a leave request</title>
+    <test-cases>
+        <test-case start='1678270787422' status='passed' stop='1678270818183'>
+            <name>TOZ_LM_001 : Verify that admin has option to submit a request on behalf of Team member &amp; Employee</name>
+            <title>TOZ_LM_001 : Verify that admin has option to submit a request on behalf of Team member &amp; Employee</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Open a leave form using admin profile and submit a leave request'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.178'/>
+            </parameters>
+            <steps>
+                <step start='1678270787431' status='passed' stop='1678270790465'>
+                    <name>Given User is able login with admin profile in TOZ application</name>
+                    <title>Given User is able login with admin profile in TOZ application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3e624471-400c-4c42-9f31-21344c3034aa-attachment.png' type='image/png' size='930751'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270789896' status='passed' stop='1678270789896'>
+                            <name>The user is able to login with admin profile</name>
+                            <title>The user is able to login with admin profile</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270790473' status='passed' stop='1678270814570'>
+                    <name>Then The user is able to see global search option in top of the application</name>
+                    <title>Then The user is able to see global search option in top of the application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='deb9f40c-5df1-4322-a0cb-2066fb5dd7ec-attachment.png' type='image/png' size='162762'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270814304' status='passed' stop='1678270814304'>
+                            <name>The user is able to see the global search option and able to enter</name>
+                            <title>The user is able to see the global search option and able to enter</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270814576' status='passed' stop='1678270815119'>
+                    <name>When The user opened the Apply Leave form with Admin user profile</name>
+                    <title>When The user opened the Apply Leave form with Admin user profile</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='de5e891e-ac78-4c46-817d-7b73808efe3a-attachment.png' type='image/png' size='162733'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270815122' status='passed' stop='1678270816951'>
+                    <name>Then The user is able to see self, Team member &amp; Employee radio buttons in form</name>
+                    <title>Then The user is able to see self, Team member &amp; Employee radio buttons in form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a876651c-51de-4a05-9214-4412f180ed5c-attachment.png' type='image/png' size='92707'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270816755' status='passed' stop='1678270816755'>
+                            <name>The user is able to see Self radio button in form</name>
+                            <title>The user is able to see Self radio button in form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678270816784' status='passed' stop='1678270816785'>
+                            <name>The user is able to see Team member radio button in form</name>
+                            <title>The user is able to see Team member radio button in form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678270816809' status='passed' stop='1678270816809'>
+                            <name>The user is able to see Employee radio button in form</name>
+                            <title>The user is able to see Employee radio button in form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270816954' status='passed' stop='1678270818158'>
+                    <name>Then the user is able to logout from the TOZ application</name>
+                    <title>Then the user is able to logout from the TOZ application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='679209dc-46f9-4c93-8cee-8344089990ba-attachment.png' type='image/png' size='931379'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1678270818256' status='passed' stop='1678270826016'>
+            <name>TOZ_LM_002 : Verify that manager has option to submit a request on behalf of Team member</name>
+            <title>TOZ_LM_002 : Verify that manager has option to submit a request on behalf of Team member</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Open a leave form using admin profile and submit a leave request'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.178'/>
+            </parameters>
+            <steps>
+                <step start='1678270818260' status='passed' stop='1678270819488'>
+                    <name>Given User is able login with manager profile in TOZ application</name>
+                    <title>Given User is able login with manager profile in TOZ application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cbefa2e4-f283-4a6d-9b8f-9995c55120d7-attachment.png' type='image/png' size='930932'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270818920' status='passed' stop='1678270818920'>
+                            <name>The user is able to login with manager profile</name>
+                            <title>The user is able to login with manager profile</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270819498' status='passed' stop='1678270823239'>
+                    <name>Then The user is able to see global search option in top of the application</name>
+                    <title>Then The user is able to see global search option in top of the application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9815fa18-e72d-4b40-9eb3-2f7e27c66ec3-attachment.png' type='image/png' size='133209'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270823082' status='passed' stop='1678270823082'>
+                            <name>The user is able to see the global search option and able to enter</name>
+                            <title>The user is able to see the global search option and able to enter</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270823241' status='passed' stop='1678270823607'>
+                    <name>When The user opened the Apply Leave form with manager user profile</name>
+                    <title>When The user opened the Apply Leave form with manager user profile</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5af7952f-f48e-4b02-b6d4-c3d4c3f0ee80-attachment.png' type='image/png' size='137826'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270823609' status='passed' stop='1678270825026'>
+                    <name>Then The user is able to see self and Team member radio buttons in form</name>
+                    <title>Then The user is able to see self and Team member radio buttons in form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6a871f27-9d34-4101-950d-b73333646dc4-attachment.png' type='image/png' size='89335'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270824839' status='passed' stop='1678270824839'>
+                            <name>The user is able to see Self radio button in form</name>
+                            <title>The user is able to see Self radio button in form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678270824863' status='passed' stop='1678270824863'>
+                            <name>The user is able to see Team member radio button in form</name>
+                            <title>The user is able to see Team member radio button in form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270825027' status='passed' stop='1678270826006'>
+                    <name>Then the user is able to logout from the TOZ application</name>
+                    <title>Then the user is able to logout from the TOZ application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9e97123a-80e8-4d1e-b854-8462002df277-attachment.png' type='image/png' size='931379'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1678270826060' status='passed' stop='1678270830257'>
+            <name>TOZ_LM_003 : Verify that employee has option to submit a request</name>
+            <title>TOZ_LM_003 : Verify that employee has option to submit a request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Open a leave form using admin profile and submit a leave request'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.178'/>
+            </parameters>
+            <steps>
+                <step start='1678270826064' status='passed' stop='1678270827990'>
+                    <name>Given User is able login with employee profile in TOZ application</name>
+                    <title>Given User is able login with employee profile in TOZ application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cf64f09c-7d8a-4eb9-ba0d-2d1afe79d214-attachment.png' type='image/png' size='930604'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270826690' status='passed' stop='1678270826690'>
+                            <name>The user is able to login with manager profile</name>
+                            <title>The user is able to login with manager profile</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270827997' status='passed' stop='1678270829697'>
+                    <name>Then The user is able to see global search option in top of the application</name>
+                    <title>Then The user is able to see global search option in top of the application</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='99283f3a-0a67-4b5c-bdcf-1a1c8cada935-attachment.png' type='image/png' size='135603'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270829537' status='passed' stop='1678270829537'>
+                            <name>The user is able to see the global search option and able to enter</name>
+                            <title>The user is able to see the global search option and able to enter</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270829698' status='passed' stop='1678270830094'>
+                    <name>When The user opened the Apply Leave form with employee user profile</name>
+                    <title>When The user opened the Apply Leave form with employee user profile</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a9bdf54c-1850-4f60-900a-cb2f50593b36-attachment.png' type='image/png' size='135591'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270830097' status='passed' stop='1678270830255'>
+                    <name>Then The user is not able to see any radio button in form</name>
+                    <title>Then The user is not able to see any radio button in form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3f65839a-e02b-46ab-9a36-9e5d2a2bcbb7-attachment.png' type='image/png' size='58860'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1678270830280' status='broken' stop='1678270899852'>
+            <name>TOZ_LM_004 : Verify that employee is able to submit a self leave request for one day</name>
+            <title>TOZ_LM_004 : Verify that employee is able to submit a self leave request for one day</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Open a leave form using admin profile and submit a leave request'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.178'/>
+                <parameter kind='environment-variable' name='WEBSITE' value='TOZ_Dev_Environment'/>
+            </parameters>
+            <steps>
+                <step start='1678270830282' status='passed' stop='1678270831840'>
+                    <name>Then the user selected Annual Leave from the list item</name>
+                    <title>Then the user selected Annual Leave from the list item</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='82a1ac18-1bf6-45a8-83a4-4c0fc37b6cfb-attachment.png' type='image/png' size='128818'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270831842' status='passed' stop='1678270835496'>
+                    <name>Then the user selected today and tomorrow as today and tomorrow respectively</name>
+                    <title>Then the user selected today and tomorrow as today and tomorrow respectively</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c5c377fc-b772-4297-96c5-fc72ba3541e7-attachment.png' type='image/png' size='140607'/>
+                    </attachments>
+                    <steps>
+                        <step start='1678270834164' status='passed' stop='1678270834164'>
+                            <name>The date format is correct as DD/MM/YYYY in From Date field</name>
+                            <title>The date format is correct as DD/MM/YYYY in From Date field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678270834352' status='passed' stop='1678270834353'>
+                            <name>The date format is correct as DD/MM/YYYY in To Date field</name>
+                            <title>The date format is correct as DD/MM/YYYY in To Date field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678270835497' status='passed' stop='1678270835947'>
+                    <name>Then the user entered remarks textbox and Comments fields</name>
+                    <title>Then the user entered remarks textbox and Comments fields</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cca57d56-b056-4468-8004-96522f529235-attachment.png' type='image/png' size='93715'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270835949' status='passed' stop='1678270836996'>
+                    <name>Then the user selected approver from manager list</name>
+                    <title>Then the user selected approver from manager list</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ff288148-1d1f-4d88-b221-0416ef98fd49-attachment.png' type='image/png' size='98599'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270836998' status='passed' stop='1678270837684'>
+                    <name>When the user clicked on submit button</name>
+                    <title>When the user clicked on submit button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ad591626-ce87-4d95-b527-4a93e61ffdd5-attachment.png' type='image/png' size='96334'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678270837685' status='broken' stop='1678270899851'>
+                    <name>Then the user got success notification message in top of the application</name>
+                    <title>Then the user got success notification message in top of the application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1678270899852' status='canceled' stop='1678270899853'>
+                    <name>Then the user is able to logout from the TOZ application</name>
+                    <title>Then the user is able to logout from the TOZ application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call getText on element with selector "//div[@id='fbNewComp_feedback']//div[text()='Request submitted for approval successfully.']" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//div[@id='fbNewComp_feedback']//div[text()='Request submitted for approval successfully.']" because element wasn't found
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (file:///C:/Users/JeevaSubramanian/Documents/WDIOMBA/TOZTEST/ROOT/POM/features/leaveManagement/stepDefinition/applyLeave.Steps.ts:283:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
