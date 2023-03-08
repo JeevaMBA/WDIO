@@ -1,9 +1,9 @@
 name: WDIO-CI
 on:
   push:
-    branches: [ main, release]
+    branches: [ main]
   pull_request:
-    branches: [ main, release]
+    branches: [ main]
     permissions: read-all|write-all
   workflow_dispatch:
 jobs:
