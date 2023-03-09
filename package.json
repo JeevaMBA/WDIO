@@ -6,6 +6,7 @@
     "@wdio/allure-reporter": "^8.3.x",
     "@wdio/cli": "^8.3.x",
     "@wdio/cucumber-framework": "^8.3.x",
+    "@wdio/dot-reporter": "^8.4.0",
     "@wdio/junit-reporter": "^8.4.0",
     "@wdio/local-runner": "^8.3.x",
     "@wdio/spec-reporter": "^8.3.x",
@@ -24,7 +25,7 @@
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
     "debug": "set DEBUG=Y&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@debug'",
-    "TestRun": "set DEBUG=Y&&set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@TestRun'",
+    "TestRun": "set DEBUG=Y&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@TestRun'",
     "smoke": "set DEBUG=N&&set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@smoke'",
     "sanity": "set DEBUG=N&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@sanity'",
     "report": "node node_modules/wdio-html-nice-reporter/lib/makeReport.js master-report.html 'reports/html-reports/'"
