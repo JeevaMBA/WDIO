@@ -25,7 +25,6 @@ jobs:
         run: npm install
       - name: Executing tests
         run: npm run TestRun
-        # Get allure report in github pages with history
 - name: Get Allure History
 uses: actions/checkout@v2
 if: always()
@@ -48,6 +47,5 @@ if: always()
 uses: peaceiris/actions-gh-pages@v2
 env:
 PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 PUBLISH_BRANCH: gh-pages
 PUBLISH_DIR: allure-history
