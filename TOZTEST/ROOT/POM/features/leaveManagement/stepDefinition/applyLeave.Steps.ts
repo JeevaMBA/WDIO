@@ -4,7 +4,6 @@ import logger from "../../../../helper/logger.js";
 import reporter from "../../../../helper/reporter.js";
 import LoggingPage from "../pageObject/logging.page.js";
 import applyLeavepage from "../pageObject/applyLeave.page.js";
-import { info } from "winston";
 
 const pages = {
   logging: LoggingPage,
@@ -12,7 +11,7 @@ const pages = {
 };
 
 Given(
-  /^User is able login with admin profile in TOZ application$/,
+  /^User is able to login with admin profile in TOZ application$/,
   async () => {
     await LoggingPage.open();
     await LoggingPage.logging(process.env.DEV_ADMIN_USERNAME,process.env.DF_PASSWORD);
@@ -25,7 +24,7 @@ Given(
 );
 
 Given(
-  /^User is able login with manager profile in TOZ application$/,
+  /^User is able to login with manager profile in TOZ application$/,
   async () => {
     await LoggingPage.open();
     await LoggingPage.logging(process.env.DEV_MNGR_USERNAME,process.env.DF_PASSWORD
@@ -39,7 +38,7 @@ Given(
 );
 
 Given(
-  /^User is able login with employee profile in TOZ application$/,
+  /^User is able to login with employee profile in TOZ application$/,
   async () => {
     await LoggingPage.open();
     await LoggingPage.logging(process.env.DEV_EMP_USERNAME,process.env.DF_PASSWORD

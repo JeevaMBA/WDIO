@@ -7,7 +7,7 @@ Feature: Open a leave form using admin profile and submit a leave request
     @TestRun @debug
     Scenario Outline: <TESTID> : Verify that admin has option to submit a request on behalf of Team member & Employee
 
-        Given User is able login with admin profile in TOZ application
+        Given User is able to login with admin profile in TOZ application
         Then The user is able to see global search option in top of the application
         When The user opened the <FormType> form with <UserType> profile
         Then The user is able to see self, Team member & Employee radio buttons in form
@@ -19,7 +19,7 @@ Feature: Open a leave form using admin profile and submit a leave request
     @TestRun @debug
     Scenario Outline: <TESTID> : Verify that manager has option to submit a request on behalf of Team member
 
-        Given User is able login with manager profile in TOZ application
+        Given User is able to login with manager profile in TOZ application
         Then The user is able to see global search option in top of the application
         When The user opened the <FormType> form with <UserType> profile
         Then The user is able to see self and Team member radio buttons in form
@@ -31,7 +31,7 @@ Feature: Open a leave form using admin profile and submit a leave request
     @TestRun @debug
     Scenario Outline: <TESTID> : Verify that employee has option to submit a request
 
-        Given User is able login with employee profile in TOZ application
+        Given User is able to login with employee profile in TOZ application
         Then The user is able to see global search option in top of the application
         When The user opened the <FormType> form with <UserType> profile
         Then The user is not able to see any radio button in form
