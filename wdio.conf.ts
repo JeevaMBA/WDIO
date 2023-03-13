@@ -1,3 +1,4 @@
+// @ts-nocheck
 import AllureReporter from '@wdio/allure-reporter';
 import type { Options } from '@wdio/types'
 import allure from "allure-commandline";
@@ -241,7 +242,7 @@ export const config: Options.Testrunner = {
         // <string> (expression) only execute the features or scenarios with tags matching the expression
         tagExpression: '',
         // <number> timeout for step definitions
-        timeout: 180000,
+        timeout: 100000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
         ignoreUndefinedDefinitions: false
     },
@@ -305,6 +306,8 @@ export const config: Options.Testrunner = {
      * @param {Object}         browser      instance of created browser/device session
      */
     before: function (capabilities, specs) {
+        browser.options["Environment"] = config.environment
+        browser.options["TOZ_DEV_URL"] = config.sauseDemoUR
     },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -328,11 +331,11 @@ export const config: Options.Testrunner = {
      * @param {ITestCaseHookParameter} world    world object containing information on pickle and test step
      * @param {Object}                 context  Cucumber World object
      */
-    // beforeScenario: function (world, context) {
-    //     let arr = world.pickle.name.split(/:/)
-    //     //@ts-ignore
-    //     if (arr.length > 0 ) browser.config.TestID = arr[0]
-    // },
+    beforeScenario: function (world, context) {
+        let arr = world.pickle.name.split(/:/)
+        if(arr.length > 0) browser.options.testid = arr[0]
+        if(!browser.options.testid) throw Error(`Error getting testid for current scenario: ${world.pickle.name}`)
+    },
     /**
      *
      * Runs before a Cucumber Step.
@@ -340,10 +343,9 @@ export const config: Options.Testrunner = {
      * @param {IPickle}            scenario scenario pickle
      * @param {Object}             context  Cucumber World object
      */
-    // beforeStep: function (step, scenario, context) {
-    //     //@ts-ignore
-    //     this.TestID = browser.config.TestID
-    // },
+    beforeStep: function (step, scenario, context) {
+        if(browser.options.testid) context.testid = browser.options.testid
+    },
     /**
      *
      * Runs after a Cucumber Step.
@@ -356,9 +358,7 @@ export const config: Options.Testrunner = {
      * @param {Object}             context          Cucumber World object
      */
     afterStep: async function (step, scenario, result, context) {
-        if (result.passed) {
-            await browser.takeScreenshot();
-        }
+        await browser.takeScreenshot();
     },
     /**
      *
@@ -379,7 +379,8 @@ export const config: Options.Testrunner = {
      * @param {GherkinDocument.IFeature} feature  Cucumber feature object
      */
     afterFeature: function (uri, feature) {
-        AllureReporter.addEnvironment("WEBSITE","TOZ_Dev_Environment")
+        AllureReporter.addEnvironment("WEBSITE :","TOZ_Dev_Environment")
+        AllureReporter.addEnvironment("Browser Name : ", browser.options.browsername)
     },
     
     /**
@@ -424,7 +425,6 @@ export const config: Options.Testrunner = {
             const generationTimeout = setTimeout(
                 () => reject(reportError),
                 5000)
-
             generation.on('exit', function(exitCode: number) {
                 clearTimeout(generationTimeout)
                 if (exitCode !== 0) {
