@@ -79,8 +79,8 @@ Feature: Open a leave form using admin profile and submit a leave request
         Then the user selected <FromDate> and <ToDate> as today and tomorrow respectively
 
         Examples:
-                    | TESTID     | FormType   | LeaveType | From Date    | To Date|
-                    | TOZ_LM_006 | Admin User | Apply Leave |
+            | TESTID     | FormType   | LeaveType   | FromDate  | ToDate  |
+            | TOZ_LM_006 | Admin User | Apply Leave | From Date | To Date |
 
 
 # Examples:
