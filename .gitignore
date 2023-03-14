@@ -13,3 +13,4 @@ package-lock.json
 tsconfig.json
 wdio.conf.ts
 logs\html-reporter.log
+*.log
