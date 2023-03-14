@@ -42,31 +42,45 @@ Feature: Open a leave form using admin profile and submit a leave request
 
 
     @TestRun @debug
-    Scenario Outline: <TESTID> : Verify that employee is able to submit a self leave request for one day
+    Scenario Outline: <TESTID> : Verify that employee is able to submit a leave request for one day
 
         #Given the user selected <ButtonType> radio button in leave request form
         Then the user selected <LeaveType> from the list item
         Then the user selected <FromDate> and <ToDate> as today and tomorrow respectively
-        Then the user entered remarks textbox and Comments fields
+        Then the user entered <remarks> textbox and <Comments> fields
         Then the user selected approver from manager list
         When the user clicked on submit button
         Then the user got success notification message in top of the application
         Then the user is able to logout from the TOZ application
 
         Examples:
-            | TESTID     | ButtonType | LeaveType    | FromDate | ToDate   |
-            | TOZ_LM_004 | Self       | Annual Leave | today    | tomorrow |
+            | TESTID     | ButtonType | LeaveType    | FromDate  | ToDate  | remarks      | Comments     | msgType |
+            | TOZ_LM_004 | Self       | Annual Leave | From Date | To Date | annual leave | annual leave | Success |
 
-#     Scenario Outline: <TESTID> : Verify that admin is able to submit a self leave request for second half day
+    @TestRun @debug
+    Scenario Outline: <TESTID> : Verify that manager is able to reject leave request for employee
 
-#         #Given the user selected <ButtonType> radio button in leave request form
-#         #Then the user selected <LeaveType> from the list item
-#         # Then the user selected <From Date> and <To Date> as today and tomorrow respectively
-#         # Then the user entered remarks textbox and Comments fields
-#         # When the user clicked on submit button
-#         # Then the user got success notification message in top of the application
+        Given User is able to login with manager profile in TOZ application
+        Then the user navigated to ToDo list and opened the <CardName> list in ToDo
+        Then the user clicked on <Action> button in first row of ToDo list
+        Then the user got success notification message in top of the application
+        Then the user is able to logout from the TOZ application
+
+        Examples:
+            | TESTID     | CardName       | Action |
+            | TOZ_LM_005 | Leave Approval | Reject |
 
 
+    @TestRun @debug
+    Scenario Outline: <TESTID> : Verify that employee is able to apply first half day leave
+        Given User is able to login with employee profile in TOZ application
+        When The user opened the <FormType> form with <UserType> profile
+        Then the user selected <LeaveType> from the list item
+        Then the user selected <FromDate> and <ToDate> as today and tomorrow respectively
+
+        Examples:
+                    | TESTID     | FormType   | LeaveType | From Date    | To Date|
+                    | TOZ_LM_006 | Admin User | Apply Leave |
 
 
 # Examples:

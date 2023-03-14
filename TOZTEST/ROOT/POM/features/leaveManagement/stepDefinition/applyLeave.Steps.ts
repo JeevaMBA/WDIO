@@ -203,7 +203,7 @@ Then(
     /** today and tomorrow date coding starts here */
     function getTomorrow(date = new Date()) {
       const dateCopy = new Date(date.getTime());
-      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 1));
+      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 3));
       return nextMonday;
     }
     let tomorrwDate = getTomorrow().toLocaleDateString("en-GB");
@@ -211,7 +211,7 @@ Then(
 
     function getToday(date = new Date()) {
       const dateCopy1 = new Date(date.getTime());
-      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 1));
+      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 3));
       return nextMonday1;
     }
     let todayDate = getToday().toLocaleDateString("en-GB");
@@ -269,13 +269,14 @@ Then(/^the user selected approver from manager list$/, async () => {
   }
 });
 
-Then(/^the user entered remarks textbox and Comments fields$/, async () => {
-  await applyLeavepage.inptRemarksAL.setValue(
-    "Please approve my leave request"
-  );
-  await applyLeavepage.inptCommentsAL.setValue(
-    "Please approve my leave request"
-  );
+Then(/^the user entered (.*) textbox and (.*) fields$/, async (remarks, Comments) => {
+  let Rele = ('Enter Remarks')
+  let Rtextbox = ("Please approve the " + remarks + " request")
+  await applyLeavepage.inputTestarea(Rele, Rtextbox)
+      
+  let Cele = ('Enter Comments')
+  let Ctextbox = ("Please approve the " + Comments + " request")
+  await applyLeavepage.inputTestarea(Cele, Ctextbox)
 });
 
 When(/^the user clicked on submit button$/, async () => {
@@ -308,3 +309,11 @@ Then(
 );
 
 // Next scenario starts here********************************
+
+Then(/^the user navigated to ToDo list and opened the (.*) list in ToDo$/, async (CardName) =>{
+await applyLeavepage.toDoCards(CardName);
+});
+
+Then(/^the user clicked on (.*) button in first row of ToDo list$/, async(Action) => {
+  await applyLeavepage.toDoListAction(Action)
+});
