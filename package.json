@@ -4,8 +4,8 @@
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@wdio/allure-reporter": "^8.3.x",
-    "@wdio/cli": "^8.3.x",
-    "@wdio/cucumber-framework": "^8.3.x",
+    "@wdio/cli": "^8.6.x",
+    "@wdio/cucumber-framework": "latest",
     "@wdio/dot-reporter": "^8.4.0",
     "@wdio/junit-reporter": "^8.4.0",
     "@wdio/local-runner": "latest",
