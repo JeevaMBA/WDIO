@@ -30,7 +30,7 @@ class LoggingPage extends Page {
     }
 
     public get btnsignout() {
-        return $('#liitem2btnlistLog=Signout')
+        return $("//li[@id='liitem2btnlistLog'][normalize-space()='Signout']")
     }
     
     /********************************************************************************************************************************
@@ -38,14 +38,16 @@ class LoggingPage extends Page {
      * e.g. to login using username and password
      */
     public async logging (username: string, password: string) {
-        await browser.maximizeWindow();
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);
         await this.btnSubmit.click();
+        await (await this.homeIcon).isExisting();
     }
 
     public async logout (){
+        await browser.pause(1000);
         await this.profileIcon.click();
+        await browser.pause(1000);
         await this.btnsignout.click();
     }
 

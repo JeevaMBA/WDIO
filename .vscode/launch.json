@@ -11,6 +11,12 @@
             "type": "node-terminal"
         },
         {
+            "command": "npm run TestRun",
+            "name": "npm run TestRun",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",

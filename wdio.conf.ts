@@ -117,8 +117,7 @@ export const config: Options.Testrunner = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
         "goog:chromeOptions":{
-            args: headless ==="Y" ? ["--disable-web-security", "--headless", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"] : ["--disable-web-security",
-            "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"]
+            args: ["--start-maximized", "--disable-web-security", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1280", "--no-sandbox"]
         },
         timeouts: { implicit: 30000, pageLoad: 30000, script: 40000 },
         // If outputDir is provided WebdriverIO can capture driver session logs
@@ -133,7 +132,7 @@ export const config: Options.Testrunner = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: debug ==="Y" ? 'error' : 'warn',
+    logLevel: debug ==="Y" ? 'info' : 'warn',
     //
     // Set specific log levels per logger
     // loggers:
@@ -173,7 +172,7 @@ export const config: Options.Testrunner = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    services: ['geckodriver'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -195,7 +194,7 @@ export const config: Options.Testrunner = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec', 'dot',
+    reporters: ['spec',
     ['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
