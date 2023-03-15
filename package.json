@@ -12,7 +12,7 @@
     "@wdio/spec-reporter": "^8.3.x",
     "allure-commandline": "^2.21.0",
     "chai": "^4.3.7",
-    "chromedriver": "latest",
+    "chromedriver": "110.x",
     "dotenv": "^16.0.3",
     "geckodriver": "^3.2.0",
     "wdio-geckodriver-service": "^4.1.0",
