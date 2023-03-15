@@ -13,3 +13,12 @@ package-lock.json
 tsconfig.json
 wdio.conf.ts
 wdio.conf.js
+/logs
+/package.json
+/package-lock.json
+/tsconfig.json
+/wdio.conf.ts
+*package.json
+*package-lock.json
+*tsconfig.json
+*wdio.conf.ts
