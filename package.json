@@ -12,7 +12,7 @@
     "@wdio/spec-reporter": "^8.3.x",
     "allure-commandline": "^2.21.0",
     "chai": "^4.3.7",
-    "chromedriver": "110.x",
+    "chromedriver": "latest",
     "dotenv": "^16.0.3",
     "geckodriver": "^3.2.0",
     "wdio-geckodriver-service": "^4.1.0",
@@ -26,10 +26,10 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
-    "debug": "set DEBUG=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@debug'",
-    "TestRun": "set DEBUG=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@TestRun'",
-    "smoke": "set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@smoke'",
-    "sanity": "wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@sanity'",
+    "debug": "set DEBUG=Y&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@debug'",
+    "TestRun": "set DEBUG=Y&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@TestRun'",
+    "smoke": "set DEBUG=N&&set HEADLESS=Y&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@smoke'",
+    "sanity": "set DEBUG=N&&set HEADLESS=N&&wdio run ./wdio.conf.ts --cucumberOpts.tagExpression='@sanity'",
     "report": "node node_modules/wdio-html-nice-reporter/lib/makeReport.js master-report.html 'reports/html-reports/'"
   }
 }

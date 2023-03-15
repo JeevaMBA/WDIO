@@ -4,48 +4,48 @@ import type { Options } from '@wdio/types'
 import allure from "allure-commandline";
 import dotenv from "dotenv";
 import fs from "fs";
-// import LOG, { getLogger } from "log4js";
-// import {ReportGenerator, HtmlReporter} from 'wdio-html-nice-reporter';
-// let reportAggregator: ReportGenerator;
+import LOG, { getLogger } from "log4js";
+import {ReportGenerator, HtmlReporter} from 'wdio-html-nice-reporter';
+let reportAggregator: ReportGenerator;
 
-// LOG.configure({
-//     appenders: {
-//         fileLog: {
-//             type: 'file',
-//             filename: "logs/html-reporter.log",
-//             maxLogSize: 5000000,
-//             level: 'debug'
-//         },
-//         debugLog: {
-//             type: 'file',
-//             filename: "logs/debug-html-reporter.log",
-//             maxLogSize: 5000000,
-//             level: 'debug'
-//         },
-//         'out': {
-//             type: 'stdout',
-//             layout: {
-//                 type: "colored"
-//             }
-//         },
-//         'filterOut': {
-//             type: 'stdout',
-//             layout: {
-//                 type: "colored"
-//             },
-//             level: 'info'
-//         }
-//     },
-//     categories: {
-//         file: {appenders: ['fileLog'], level: 'info'},
-//         default: {appenders: ['out', 'fileLog'], level: 'info'},
-//         console: {appenders: ['out'], level: 'info'},
-//         debug: {appenders: ['debugLog'], level: 'debug'}
-//     }
-// });
+LOG.configure({
+    appenders: {
+        fileLog: {
+            type: 'file',
+            filename: "logs/html-reporter.log",
+            maxLogSize: 5000000,
+            level: 'debug'
+        },
+        debugLog: {
+            type: 'file',
+            filename: "logs/debug-html-reporter.log",
+            maxLogSize: 5000000,
+            level: 'debug'
+        },
+        'out': {
+            type: 'stdout',
+            layout: {
+                type: "colored"
+            }
+        },
+        'filterOut': {
+            type: 'stdout',
+            layout: {
+                type: "colored"
+            },
+            level: 'info'
+        }
+    },
+    categories: {
+        file: {appenders: ['fileLog'], level: 'info'},
+        default: {appenders: ['out', 'fileLog'], level: 'info'},
+        console: {appenders: ['out'], level: 'info'},
+        debug: {appenders: ['debugLog'], level: 'debug'}
+    }
+});
 
-// //pick the category above to match the output you want.
-// let logger = LOG.getLogger("default");
+//pick the category above to match the output you want.
+let logger = LOG.getLogger("default");
 dotenv.config();
 let headless = process.env.HEADLESS;
 let debug = process.env.DEBUG;
@@ -117,7 +117,8 @@ export const config: Options.Testrunner = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
         "goog:chromeOptions":{
-            args: ["--start-maximized", "--disable-web-security", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1280", "--no-sandbox"]
+            args: headless ==="Y" ? ["--disable-web-security", "--headless", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"] : ["--disable-web-security",
+            "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"]
         },
         timeouts: { implicit: 30000, pageLoad: 30000, script: 40000 },
         // If outputDir is provided WebdriverIO can capture driver session logs
@@ -132,7 +133,7 @@ export const config: Options.Testrunner = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: debug ==="Y" ? 'info' : 'warn',
+    logLevel: debug ==="Y" ? 'error' : 'warn',
     //
     // Set specific log levels per logger
     // loggers:
@@ -201,21 +202,21 @@ export const config: Options.Testrunner = {
         disableWebdriverScreenshotsReporting: false,
         useCucumberStepReporter: true,
     }],
-    // ["html-nice", {
-    //     outputDir: './reports/html-reports/',
-    //     filename: 'report.html',
-    //     reportTitle: 'TOZ Report Title',
-    //     linkScreenshots: true,
-    //     //to show the report in a browser when done
-    //     showInBrowser: true,
-    //     collapseTests: false,
-    //     //to turn on screenshots after every test
-    //     useOnAfterCommandForScreenshot: false,
+    ["html-nice", {
+        outputDir: './reports/html-reports/',
+        filename: 'report.html',
+        reportTitle: 'TOZ Report Title',
+        linkScreenshots: true,
+        //to show the report in a browser when done
+        showInBrowser: true,
+        collapseTests: false,
+        //to turn on screenshots after every test
+        useOnAfterCommandForScreenshot: false,
 
-    //     //to initialize the logger
-    //     LOG: logger
-    //  }
-    // ]
+        //to initialize the logger
+        LOG: logger
+     }
+    ]
 ],
 
 
