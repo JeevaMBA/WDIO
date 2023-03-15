@@ -5705,3 +5705,2023 @@
 [2023-03-11T20:48:36.522] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\NewTryWDIO\WDIO\reports\html-reports\report-0-1.json
 [2023-03-11T20:48:36.522] [INFO] default - Json Generation Completed
 [2023-03-11T20:48:36.522] [INFO] default - Report Generation completed
+[2023-03-14T20:05:30.272] [INFO] default - onRunnerStart: 0-1
+[2023-03-14T20:05:30.275] [INFO] default - onRunnerStart: 0-0
+[2023-03-14T20:05:30.276] [INFO] default - onRunnerEnd: 0-1
+[2023-03-14T20:05:30.276] [INFO] default - Report Generation started
+[2023-03-14T20:05:30.276] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-14T20:05:30.278] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-14T20:05:30.278] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-14T20:05:30.278] [INFO] default - onRunnerEnd: 0-0
+[2023-03-14T20:05:30.278] [INFO] default - Report Generation started
+[2023-03-14T20:05:30.278] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-14T20:05:30.280] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-14T20:05:30.281] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-14T20:05:30.292] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-14T20:05:30.292] [INFO] default - Json Generation Completed
+[2023-03-14T20:05:30.292] [INFO] default - Report Generation completed
+[2023-03-14T20:05:30.294] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-14T20:05:30.294] [INFO] default - Json Generation Completed
+[2023-03-14T20:05:30.294] [INFO] default - Report Generation completed
+[2023-03-15T17:05:43.291] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T17:05:43.296] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T17:05:43.296] [INFO] default - Report Generation started
+[2023-03-15T17:05:43.297] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T17:05:43.299] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T17:05:43.300] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:05:43.321] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:05:43.321] [INFO] default - Json Generation Completed
+[2023-03-15T17:05:43.321] [INFO] default - Report Generation completed
+[2023-03-15T17:05:44.330] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T17:05:44.788] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:05:44.816] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T17:05:44.817] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T17:05:44.819] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T17:05:44.820] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T17:05:50.723] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T17:05:50.728] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T17:06:00.235] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T17:06:00.237] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T17:06:00.612] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T17:06:00.613] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T17:06:03.441] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T17:06:03.442] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T17:06:05.032] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T17:06:05.037] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T17:06:05.039] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T17:06:05.040] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T17:06:05.051] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T17:06:05.052] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T17:06:05.053] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T17:06:05.053] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T17:06:06.544] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T17:06:06.549] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T17:06:11.552] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T17:06:11.553] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T17:06:11.839] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T17:06:11.840] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T17:06:13.881] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T17:06:13.881] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T17:06:15.232] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T17:06:15.236] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T17:06:15.237] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T17:06:15.238] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T17:06:15.265] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T17:06:15.265] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T17:06:15.266] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T17:06:15.266] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T17:06:16.544] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T17:06:16.547] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T17:06:21.046] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T17:06:21.046] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T17:06:21.346] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T17:06:21.347] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T17:06:21.503] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T17:06:21.504] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T17:06:21.504] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T17:06:21.505] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T17:06:21.516] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T17:06:21.516] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T17:06:21.517] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T17:06:21.517] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T17:07:24.398] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T17:07:24.399] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T17:07:27.960] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T17:07:27.961] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T17:07:28.379] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T17:07:28.380] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T17:07:29.315] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T17:07:29.316] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T17:07:30.048] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T17:07:30.049] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T17:07:42.711] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T17:07:42.713] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T17:07:47.332] [INFO] default - onTestPass: 0-0:89
+[2023-03-15T17:07:47.336] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T17:07:47.337] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T17:07:47.337] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T17:07:47.361] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T17:07:47.361] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T17:07:47.362] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T17:07:47.362] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T17:07:48.819] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T17:07:48.823] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T17:07:52.064] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T17:07:52.064] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T17:07:55.018] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T17:07:55.019] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T17:08:57.288] [INFO] default - onTestFail: 0-0:94
+[2023-03-15T17:08:57.289] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T17:08:57.290] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T17:08:57.290] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T17:08:57.291] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T17:08:57.291] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T17:08:57.310] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T17:08:57.311] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T17:08:57.311] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T17:08:57.311] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T17:08:58.647] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T17:08:58.656] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T17:09:02.920] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T17:09:02.921] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T17:10:50.045] [INFO] default - onTestFail: 0-0:99
+[2023-03-15T17:10:50.046] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T17:10:50.047] [INFO] default - onTestSkip: 0-0:100
+[2023-03-15T17:10:50.047] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T17:10:50.047] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T17:10:50.048] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T17:10:50.079] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:10:50.320] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T17:10:50.323] [INFO] default - Report Generation started
+[2023-03-15T17:10:50.324] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T17:10:50.326] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T17:10:50.326] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T17:10:50.326] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T17:10:50.326] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T17:10:50.326] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T17:10:50.326] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T17:10:50.327] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T17:10:50.328] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:10:50.746] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:24:36.462] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T17:24:36.465] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T17:24:36.466] [INFO] default - Report Generation started
+[2023-03-15T17:24:36.466] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T17:24:36.468] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T17:24:36.469] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:24:36.484] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:24:36.485] [INFO] default - Json Generation Completed
+[2023-03-15T17:24:36.485] [INFO] default - Report Generation completed
+[2023-03-15T17:24:37.101] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T17:24:37.426] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:24:37.453] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T17:24:37.454] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T17:24:37.456] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T17:24:37.457] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T17:24:42.984] [INFO] default - onTestFail: 0-0:66
+[2023-03-15T17:24:42.987] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T17:24:42.988] [INFO] default - onTestSkip: 0-0:67
+[2023-03-15T17:24:42.988] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T17:24:42.989] [INFO] default - onTestSkip: 0-0:68
+[2023-03-15T17:24:42.989] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T17:24:42.989] [INFO] default - onTestSkip: 0-0:69
+[2023-03-15T17:24:42.990] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T17:24:42.990] [INFO] default - onTestSkip: 0-0:70
+[2023-03-15T17:24:42.990] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T17:24:42.991] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T17:24:42.991] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T17:24:42.995] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T17:24:42.995] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T17:24:42.995] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T17:24:42.996] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T17:24:43.907] [INFO] default - onTestFail: 0-0:72
+[2023-03-15T17:24:43.909] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T17:24:43.909] [INFO] default - onTestSkip: 0-0:73
+[2023-03-15T17:24:43.909] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T17:24:43.909] [INFO] default - onTestSkip: 0-0:74
+[2023-03-15T17:24:43.909] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T17:24:43.909] [INFO] default - onTestSkip: 0-0:75
+[2023-03-15T17:24:43.910] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T17:24:43.910] [INFO] default - onTestSkip: 0-0:76
+[2023-03-15T17:24:43.910] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T17:24:43.910] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T17:24:43.911] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T17:24:43.914] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T17:24:43.914] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T17:24:43.914] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T17:24:43.915] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T17:24:44.801] [INFO] default - onTestFail: 0-0:78
+[2023-03-15T17:24:44.802] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T17:24:44.803] [INFO] default - onTestSkip: 0-0:79
+[2023-03-15T17:24:44.803] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T17:24:44.803] [INFO] default - onTestSkip: 0-0:80
+[2023-03-15T17:24:44.803] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T17:24:44.803] [INFO] default - onTestSkip: 0-0:81
+[2023-03-15T17:24:44.803] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T17:24:44.804] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T17:24:44.804] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T17:24:44.810] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T17:24:44.810] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T17:24:44.810] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T17:24:44.810] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T17:24:55.128] [INFO] default - onTestFail: 0-0:83
+[2023-03-15T17:24:55.131] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T17:24:55.132] [INFO] default - onTestSkip: 0-0:84
+[2023-03-15T17:24:55.132] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T17:24:55.132] [INFO] default - onTestSkip: 0-0:85
+[2023-03-15T17:24:55.132] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T17:24:55.132] [INFO] default - onTestSkip: 0-0:86
+[2023-03-15T17:24:55.132] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T17:24:55.132] [INFO] default - onTestSkip: 0-0:87
+[2023-03-15T17:24:55.132] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T17:24:55.132] [INFO] default - onTestSkip: 0-0:88
+[2023-03-15T17:24:55.132] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T17:24:55.132] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T17:24:55.133] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T17:24:55.133] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T17:24:55.133] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T17:24:55.143] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T17:24:55.143] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T17:24:55.144] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T17:24:55.144] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T17:24:56.040] [INFO] default - onTestFail: 0-0:91
+[2023-03-15T17:24:56.042] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T17:24:56.042] [INFO] default - onTestSkip: 0-0:92
+[2023-03-15T17:24:56.042] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T17:24:56.042] [INFO] default - onTestSkip: 0-0:93
+[2023-03-15T17:24:56.043] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T17:24:56.043] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T17:24:56.043] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T17:24:56.043] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T17:24:56.043] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T17:24:56.043] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T17:24:56.043] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T17:24:56.049] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T17:24:56.049] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T17:24:56.050] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T17:24:56.050] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T17:24:56.948] [INFO] default - onTestFail: 0-0:97
+[2023-03-15T17:24:56.951] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T17:24:56.951] [INFO] default - onTestSkip: 0-0:98
+[2023-03-15T17:24:56.951] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T17:24:56.951] [INFO] default - onTestSkip: 0-0:99
+[2023-03-15T17:24:56.951] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T17:24:56.951] [INFO] default - onTestSkip: 0-0:100
+[2023-03-15T17:24:56.951] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T17:24:56.952] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T17:24:56.952] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T17:24:56.980] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:24:57.027] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T17:24:57.028] [INFO] default - Report Generation started
+[2023-03-15T17:24:57.029] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T17:24:57.030] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T17:24:57.030] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T17:24:57.031] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T17:24:57.031] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T17:24:57.031] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T17:24:57.031] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T17:24:57.032] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T17:24:57.033] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:24:57.174] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:24:57.174] [INFO] default - Json Generation Completed
+[2023-03-15T17:24:57.174] [INFO] default - Report Generation completed
+[2023-03-15T17:26:46.467] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T17:26:46.470] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T17:26:46.471] [INFO] default - Report Generation started
+[2023-03-15T17:26:46.471] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T17:26:46.473] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T17:26:46.473] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:26:46.486] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:26:46.487] [INFO] default - Json Generation Completed
+[2023-03-15T17:26:46.487] [INFO] default - Report Generation completed
+[2023-03-15T17:26:47.099] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T17:26:47.372] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:26:47.400] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T17:26:47.401] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T17:26:47.403] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T17:26:47.404] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T17:26:52.866] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T17:26:52.868] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T17:26:53.169] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T17:26:53.172] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T17:27:02.354] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T17:27:02.355] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T17:27:02.437] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T17:27:02.438] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T17:27:03.894] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T17:27:03.897] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T17:27:03.898] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T17:27:03.898] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T17:27:03.910] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T17:27:03.910] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T17:27:03.911] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T17:27:03.911] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T17:27:04.864] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T17:27:04.866] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T17:27:05.169] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T17:27:05.172] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T17:27:10.396] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T17:27:10.397] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T17:27:10.540] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T17:27:10.541] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T17:27:11.575] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T17:27:11.578] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T17:27:11.578] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T17:27:11.578] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T17:27:11.595] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T17:27:11.596] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T17:27:11.596] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T17:27:11.596] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T17:27:12.668] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T17:27:12.670] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T17:27:12.999] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T17:27:13.002] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T17:27:18.225] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T17:27:18.226] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T17:27:18.317] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T17:27:18.318] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T17:27:18.318] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T17:27:18.319] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T17:27:18.327] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T17:27:18.328] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T17:27:18.328] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T17:27:18.328] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T17:27:20.796] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T17:27:20.797] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T17:27:24.104] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T17:27:24.107] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T17:27:24.384] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T17:27:24.385] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T17:27:25.133] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T17:27:25.134] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T17:27:25.884] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T17:27:25.884] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T17:27:34.009] [INFO] default - onTestFail: 0-0:88
+[2023-03-15T17:27:34.010] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T17:27:34.010] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T17:27:34.010] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T17:27:34.011] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T17:27:34.011] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T17:27:34.017] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T17:27:34.018] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T17:27:34.018] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T17:27:34.018] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T17:27:35.874] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T17:27:35.876] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T17:27:40.078] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T17:27:40.079] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T17:27:43.881] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T17:27:43.882] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T17:27:51.980] [INFO] default - onTestFail: 0-0:94
+[2023-03-15T17:27:51.981] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T17:27:51.981] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T17:27:51.981] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T17:27:51.982] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T17:27:51.982] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T17:27:51.995] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T17:27:51.995] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T17:27:51.995] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T17:27:51.996] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T17:27:53.983] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T17:27:53.986] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T17:27:59.683] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T17:27:59.683] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T17:28:02.649] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T17:28:02.651] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T17:28:05.974] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T17:28:05.976] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T17:28:05.977] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T17:28:05.980] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T17:28:06.023] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:28:06.115] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T17:28:06.118] [INFO] default - Report Generation started
+[2023-03-15T17:28:06.119] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T17:28:06.120] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T17:28:06.121] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T17:28:06.121] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T17:28:06.121] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T17:28:06.122] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T17:28:06.122] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T17:28:06.125] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T17:28:06.125] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:28:06.600] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:28:06.600] [INFO] default - Json Generation Completed
+[2023-03-15T17:28:06.600] [INFO] default - Report Generation completed
+[2023-03-15T17:39:10.384] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T17:39:10.387] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T17:39:10.388] [INFO] default - Report Generation started
+[2023-03-15T17:39:10.388] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T17:39:10.390] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T17:39:10.390] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:39:10.405] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:39:10.405] [INFO] default - Json Generation Completed
+[2023-03-15T17:39:10.405] [INFO] default - Report Generation completed
+[2023-03-15T17:39:11.139] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T17:39:11.532] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:39:11.575] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T17:39:11.578] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T17:39:11.581] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T17:39:11.583] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T17:39:17.426] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T17:39:17.430] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T17:39:17.841] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T17:39:17.846] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T17:39:44.078] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T17:39:44.079] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T17:39:44.269] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T17:39:44.271] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T17:39:45.799] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T17:39:45.803] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T17:39:45.804] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T17:39:45.806] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T17:39:45.845] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T17:39:45.845] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T17:39:45.846] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T17:39:45.846] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T17:39:47.776] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T17:39:47.785] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T17:39:51.601] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T17:39:51.602] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T17:39:52.850] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T17:39:52.852] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T17:39:53.046] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T17:39:53.047] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T17:39:54.303] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T17:39:54.309] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T17:39:54.310] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T17:39:54.311] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T17:39:54.345] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T17:39:54.345] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T17:39:54.346] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T17:39:54.346] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T17:39:57.124] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T17:39:57.128] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T17:39:57.561] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T17:39:57.564] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T17:40:03.034] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T17:40:03.036] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T17:40:03.183] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T17:40:03.183] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T17:40:03.184] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T17:40:03.184] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T17:40:03.203] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T17:40:03.204] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T17:40:03.204] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T17:40:03.204] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T17:40:06.335] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T17:40:06.336] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T17:40:09.777] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T17:40:09.778] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T17:40:10.151] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T17:40:10.151] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T17:40:10.969] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T17:40:10.969] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T17:40:12.730] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T17:40:12.730] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T17:40:23.598] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T17:40:23.598] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T17:40:33.821] [INFO] default - onTestFail: 0-0:89
+[2023-03-15T17:40:33.822] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T17:40:33.822] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T17:40:33.823] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T17:40:33.827] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T17:40:33.828] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T17:40:33.828] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T17:40:33.828] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T17:40:35.076] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T17:40:35.078] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T17:40:38.758] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T17:40:38.758] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T17:40:41.663] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T17:40:41.663] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T17:40:49.849] [INFO] default - onTestFail: 0-0:94
+[2023-03-15T17:40:49.850] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T17:40:49.851] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T17:40:49.851] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T17:40:49.852] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T17:40:49.852] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T17:40:49.858] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T17:40:49.858] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T17:40:49.859] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T17:40:49.859] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T17:40:51.131] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T17:40:51.134] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T17:40:55.886] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T17:40:55.887] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T17:40:58.879] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T17:40:58.879] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T17:41:02.246] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T17:41:02.247] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T17:41:02.248] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T17:41:02.248] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T17:41:02.284] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:41:02.379] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T17:41:02.382] [INFO] default - Report Generation started
+[2023-03-15T17:41:02.384] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T17:41:02.386] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T17:41:02.386] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T17:41:02.386] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T17:41:02.387] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T17:41:02.388] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T17:41:02.388] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T17:41:02.389] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T17:41:02.390] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:41:02.936] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:55:26.607] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T17:55:26.611] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T17:55:26.612] [INFO] default - Report Generation started
+[2023-03-15T17:55:26.613] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T17:55:26.615] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T17:55:26.615] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:55:26.633] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T17:55:26.634] [INFO] default - Json Generation Completed
+[2023-03-15T17:55:26.634] [INFO] default - Report Generation completed
+[2023-03-15T17:55:27.399] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T17:55:27.915] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:55:27.958] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T17:55:27.959] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T17:55:27.962] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T17:55:27.963] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T17:55:33.766] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T17:55:33.770] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T17:55:34.190] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T17:55:34.193] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T17:55:43.244] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T17:55:43.245] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T17:55:43.388] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T17:55:43.390] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T17:55:44.928] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T17:55:44.933] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T17:55:44.934] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T17:55:44.935] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T17:55:44.972] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T17:55:44.973] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T17:55:44.973] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T17:55:44.974] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T17:55:46.105] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T17:55:46.108] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T17:55:46.514] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T17:55:46.518] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T17:55:51.232] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T17:55:51.233] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T17:55:51.371] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T17:55:51.371] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T17:55:52.843] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T17:55:52.846] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T17:55:52.847] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T17:55:52.847] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T17:55:52.880] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T17:55:52.881] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T17:55:52.881] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T17:55:52.882] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T17:55:55.856] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T17:55:55.859] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T17:55:56.267] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T17:55:56.270] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T17:56:01.606] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T17:56:01.608] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T17:56:01.734] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T17:56:01.735] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T17:56:01.735] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T17:56:01.735] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T17:56:01.753] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T17:56:01.753] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T17:56:01.753] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T17:56:01.753] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T17:56:04.727] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T17:56:04.728] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T17:56:08.055] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T17:56:08.056] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T17:56:08.314] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T17:56:08.314] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T17:56:09.060] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T17:56:09.061] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T17:56:10.766] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T17:56:10.767] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T17:56:24.577] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T17:56:24.578] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T17:56:34.739] [INFO] default - onTestFail: 0-0:89
+[2023-03-15T17:56:34.740] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T17:56:34.741] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T17:56:34.742] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T17:56:34.749] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T17:56:34.749] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T17:56:34.750] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T17:56:34.751] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T17:56:35.938] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T17:56:35.941] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T17:56:39.194] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T17:56:39.195] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T17:56:42.008] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T17:56:42.010] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T17:56:53.167] [INFO] default - onTestFail: 0-0:94
+[2023-03-15T17:56:53.170] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T17:56:53.171] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T17:56:53.171] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T17:56:53.172] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T17:56:53.172] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T17:56:53.183] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T17:56:53.183] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T17:56:53.184] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T17:56:53.184] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T17:56:54.403] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T17:56:54.408] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T17:56:59.191] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T17:56:59.192] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T17:57:02.245] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T17:57:02.246] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T17:57:05.701] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T17:57:05.701] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T17:57:05.701] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T17:57:05.702] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T17:57:05.734] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T17:57:05.821] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T17:57:05.824] [INFO] default - Report Generation started
+[2023-03-15T17:57:05.824] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T17:57:05.826] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T17:57:05.826] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T17:57:05.826] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T17:57:05.827] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T17:57:05.827] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T17:57:05.827] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T17:57:05.829] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T17:57:05.829] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:57:06.319] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T17:57:06.319] [INFO] default - Json Generation Completed
+[2023-03-15T17:57:06.319] [INFO] default - Report Generation completed
+[2023-03-15T18:48:47.674] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T18:48:47.680] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T18:48:47.681] [INFO] default - Report Generation started
+[2023-03-15T18:48:47.682] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T18:48:47.684] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T18:48:47.685] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T18:48:47.698] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T18:48:47.698] [INFO] default - Json Generation Completed
+[2023-03-15T18:48:47.699] [INFO] default - Report Generation completed
+[2023-03-15T18:48:48.473] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T18:48:48.931] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T18:48:48.971] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T18:48:48.973] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T18:48:48.975] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T18:48:48.976] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T18:48:56.246] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T18:48:56.250] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T18:48:56.672] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T18:48:56.676] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T18:49:06.762] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T18:49:06.763] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T18:49:06.960] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T18:49:06.963] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T18:49:08.762] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T18:49:08.767] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T18:49:08.768] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T18:49:08.769] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T18:49:08.809] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T18:49:08.810] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T18:49:08.810] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T18:49:08.811] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T18:49:09.903] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T18:49:09.905] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T18:49:10.315] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T18:49:10.318] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T18:49:14.524] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T18:49:14.526] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T18:49:14.655] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T18:49:14.655] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T18:49:15.444] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T18:49:15.445] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T18:49:15.445] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T18:49:15.445] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T18:49:15.461] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T18:49:15.461] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T18:49:15.461] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T18:49:15.461] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T18:49:16.546] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T18:49:16.548] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T18:49:16.982] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T18:49:16.985] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T18:49:21.465] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T18:49:21.466] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T18:49:21.604] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T18:49:21.606] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T18:49:21.607] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T18:49:21.607] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T18:49:21.622] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T18:49:21.622] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T18:49:21.622] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T18:49:21.622] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T18:49:24.066] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T18:49:24.067] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T18:49:27.388] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T18:49:27.388] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T18:49:27.697] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T18:49:27.698] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T18:49:28.466] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T18:49:28.467] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T18:49:30.223] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T18:49:30.223] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T18:49:30.389] [INFO] default - onTestFail: 0-0:88
+[2023-03-15T18:49:30.390] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T18:49:30.390] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T18:49:30.390] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T18:49:30.391] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T18:49:30.391] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T18:49:30.396] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T18:49:30.396] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T18:49:30.397] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T18:49:30.397] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T18:49:31.473] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T18:49:31.479] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T18:49:33.663] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T18:49:33.664] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T18:49:43.814] [INFO] default - onTestFail: 0-0:93
+[2023-03-15T18:49:43.816] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T18:49:43.816] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T18:49:43.817] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T18:49:43.818] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T18:49:43.819] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T18:49:43.819] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T18:49:43.820] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T18:49:43.832] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T18:49:43.832] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T18:49:43.832] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T18:49:43.832] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T18:49:44.911] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T18:49:44.914] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T18:49:48.655] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T18:49:48.656] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T18:49:51.055] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T18:49:51.056] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T18:49:54.375] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T18:49:54.376] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T18:49:54.377] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T18:49:54.377] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T18:49:54.402] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T18:49:54.507] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T18:49:54.508] [INFO] default - Report Generation started
+[2023-03-15T18:49:54.509] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T18:49:54.510] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T18:49:54.510] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T18:49:54.510] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T18:49:54.510] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T18:49:54.510] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T18:49:54.510] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T18:49:54.511] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T18:49:54.512] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T18:49:54.957] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T18:57:56.091] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T18:57:56.096] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T18:57:56.097] [INFO] default - Report Generation started
+[2023-03-15T18:57:56.098] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T18:57:56.100] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T18:57:56.101] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T18:57:56.125] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T18:57:56.125] [INFO] default - Json Generation Completed
+[2023-03-15T18:57:56.125] [INFO] default - Report Generation completed
+[2023-03-15T18:57:56.726] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T18:57:57.113] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T18:57:57.149] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T18:57:57.150] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T18:57:57.152] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T18:57:57.153] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T18:58:02.086] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T18:58:02.090] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T18:58:02.500] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T18:58:02.505] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T18:58:10.080] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T18:58:10.082] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T18:58:10.253] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T18:58:10.256] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T18:58:11.097] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T18:58:11.098] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T18:58:11.099] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T18:58:11.100] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T18:58:11.117] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T18:58:11.117] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T18:58:11.118] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T18:58:11.118] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T18:58:12.244] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T18:58:12.248] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T18:58:12.660] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T18:58:12.665] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T18:58:17.889] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T18:58:17.891] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T18:58:18.034] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T18:58:18.035] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T18:58:18.840] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T18:58:18.841] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T18:58:18.842] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T18:58:18.843] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T18:58:18.857] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T18:58:18.859] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T18:58:18.859] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T18:58:18.860] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T18:58:19.945] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T18:58:19.949] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T18:58:20.372] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T18:58:20.375] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T18:58:24.490] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T18:58:24.491] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T18:58:24.607] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T18:58:24.609] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T18:58:24.610] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T18:58:24.610] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T18:58:24.636] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T18:58:24.636] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T18:58:24.637] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T18:58:24.637] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T18:58:27.088] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T18:58:27.090] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T18:58:30.409] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T18:58:30.410] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T18:58:30.710] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T18:58:30.710] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T18:58:31.461] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T18:58:31.462] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T18:58:33.234] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T18:58:33.235] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T18:58:33.553] [INFO] default - onTestFail: 0-0:88
+[2023-03-15T18:58:33.555] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T18:58:33.555] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T18:58:33.555] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T18:58:33.556] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T18:58:33.556] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T18:58:33.563] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T18:58:33.563] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T18:58:33.564] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T18:58:33.564] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T18:58:34.786] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T18:58:34.789] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T18:58:37.487] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T18:58:37.488] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T18:58:47.641] [INFO] default - onTestFail: 0-0:93
+[2023-03-15T18:58:47.642] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T18:58:47.643] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T18:58:47.643] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T18:58:47.643] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T18:58:47.644] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T18:58:47.644] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T18:58:47.644] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T18:58:47.655] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T18:58:47.655] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T18:58:47.655] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T18:58:47.656] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T18:58:48.765] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T18:58:48.771] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T18:58:52.484] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T18:58:52.485] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T18:58:55.110] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T18:58:55.111] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T18:58:58.477] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T18:58:58.479] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T18:58:58.479] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T18:58:58.480] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T18:58:58.514] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T18:58:58.604] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T18:58:58.606] [INFO] default - Report Generation started
+[2023-03-15T18:58:58.606] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T18:58:58.607] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T18:58:58.608] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T18:58:58.608] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T18:58:58.608] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T18:58:58.608] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T18:58:58.608] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T18:58:58.609] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T18:58:58.609] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T18:58:59.123] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:00:25.012] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:00:25.015] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:00:25.015] [INFO] default - Report Generation started
+[2023-03-15T19:00:25.016] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:00:25.017] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:00:25.018] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:00:25.031] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:00:25.032] [INFO] default - Json Generation Completed
+[2023-03-15T19:00:25.032] [INFO] default - Report Generation completed
+[2023-03-15T19:00:25.690] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:00:26.111] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:00:26.158] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:00:26.159] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:00:26.160] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:00:26.161] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:00:31.179] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:00:31.184] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:00:31.612] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:00:31.615] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:00:40.708] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:00:40.709] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:00:40.867] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:00:40.869] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:00:41.694] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:00:41.695] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:00:41.696] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:00:41.697] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:00:41.717] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:00:41.717] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:00:41.718] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:00:41.719] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:00:42.833] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:00:42.836] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:00:43.247] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:00:43.250] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:00:47.821] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:00:47.822] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:00:47.951] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:00:47.952] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:00:48.737] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:00:48.738] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:00:48.739] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:00:48.740] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:00:48.759] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:00:48.759] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:00:48.759] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:00:48.759] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:00:49.934] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:00:49.937] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:00:50.360] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:00:50.362] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:00:58.911] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:00:58.911] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:00:59.032] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:00:59.032] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:00:59.033] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:00:59.033] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:00:59.056] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:00:59.057] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:00:59.057] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:00:59.057] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:01:03.048] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:01:03.050] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:01:06.389] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:01:06.389] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:01:06.662] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:01:06.663] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:01:07.412] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:01:07.414] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:01:11.161] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:01:11.163] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:01:11.483] [INFO] default - onTestFail: 0-0:88
+[2023-03-15T19:01:11.484] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:01:11.484] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T19:01:11.484] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:01:11.485] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:01:11.485] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:01:11.491] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:01:11.491] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:01:11.492] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:01:11.492] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:01:12.667] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:01:12.670] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:01:16.374] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:01:16.374] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:01:26.531] [INFO] default - onTestFail: 0-0:93
+[2023-03-15T19:01:26.532] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:01:26.532] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T19:01:26.532] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:01:26.532] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T19:01:26.533] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:01:26.533] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:01:26.533] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:01:26.546] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:01:26.547] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:01:26.547] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:01:26.547] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:01:27.651] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:01:27.658] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:01:31.899] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T19:01:31.899] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T19:01:34.784] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T19:01:34.785] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T19:01:38.161] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T19:01:38.163] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T19:01:38.164] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T19:01:38.164] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T19:01:38.191] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:01:38.282] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T19:01:38.285] [INFO] default - Report Generation started
+[2023-03-15T19:01:38.285] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T19:01:38.287] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T19:01:38.287] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T19:01:38.288] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T19:01:38.288] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T19:01:38.289] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T19:01:38.289] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T19:01:38.290] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T19:01:38.291] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:01:38.799] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:01:38.799] [INFO] default - Json Generation Completed
+[2023-03-15T19:01:38.799] [INFO] default - Report Generation completed
+[2023-03-15T19:07:04.450] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:07:04.455] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:07:04.456] [INFO] default - Report Generation started
+[2023-03-15T19:07:04.456] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:07:04.458] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:07:04.459] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:07:04.473] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:07:04.473] [INFO] default - Json Generation Completed
+[2023-03-15T19:07:04.473] [INFO] default - Report Generation completed
+[2023-03-15T19:07:05.157] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:07:05.553] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:07:05.586] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:07:05.587] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:07:05.589] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:07:05.590] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:07:14.858] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:07:14.861] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:07:15.284] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:07:15.288] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:07:27.898] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:07:27.902] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:07:28.057] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:07:28.058] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:07:29.874] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:07:29.878] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:07:29.880] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:07:29.881] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:07:29.910] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:07:29.911] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:07:29.911] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:07:29.912] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:07:31.054] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:07:31.057] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:07:31.507] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:07:31.511] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:07:41.688] [INFO] default - onTestFail: 0-0:74
+[2023-03-15T19:07:41.689] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:07:41.690] [INFO] default - onTestSkip: 0-0:75
+[2023-03-15T19:07:41.691] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:07:41.691] [INFO] default - onTestSkip: 0-0:76
+[2023-03-15T19:07:41.692] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:07:41.693] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:07:41.694] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:07:41.707] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:07:41.707] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:07:41.708] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:07:41.708] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:07:43.392] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:07:43.394] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:07:43.834] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:07:43.837] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:07:50.066] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:07:50.067] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:07:50.178] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:07:50.179] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:07:50.179] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:07:50.180] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:07:50.202] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:07:50.202] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:07:50.202] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:07:50.202] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:07:55.164] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:07:55.165] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:07:59.052] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:07:59.053] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:07:59.318] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:07:59.319] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:08:00.076] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:08:00.077] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:08:03.831] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:08:03.834] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:08:04.133] [INFO] default - onTestFail: 0-0:88
+[2023-03-15T19:08:04.134] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:08:04.135] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T19:08:04.135] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:08:04.136] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:08:04.136] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:08:04.145] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:08:04.146] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:08:04.147] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:08:04.147] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:08:05.420] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:08:05.424] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:08:09.612] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:08:09.612] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:08:19.760] [INFO] default - onTestFail: 0-0:93
+[2023-03-15T19:08:19.761] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:08:19.762] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T19:08:19.763] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:08:19.763] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T19:08:19.763] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:08:19.764] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:08:19.764] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:08:19.774] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:08:19.775] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:08:19.775] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:08:19.775] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:08:20.646] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:08:20.650] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:08:24.292] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T19:08:24.294] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T19:08:26.755] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T19:08:26.756] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T19:08:30.096] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T19:08:30.097] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T19:08:30.097] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T19:08:30.098] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T19:08:30.123] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:08:30.218] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T19:08:30.220] [INFO] default - Report Generation started
+[2023-03-15T19:08:30.220] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T19:08:30.221] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T19:08:30.222] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T19:08:30.222] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T19:08:30.222] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T19:08:30.222] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T19:08:30.223] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T19:08:30.224] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T19:08:30.225] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:08:30.678] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:11:15.288] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:11:15.291] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:11:15.292] [INFO] default - Report Generation started
+[2023-03-15T19:11:15.292] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:11:15.294] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:11:15.294] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:11:15.308] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:11:15.309] [INFO] default - Json Generation Completed
+[2023-03-15T19:11:15.309] [INFO] default - Report Generation completed
+[2023-03-15T19:11:15.945] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:11:16.357] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:11:16.390] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:11:16.391] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:11:16.394] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:11:16.395] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:11:22.192] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:11:22.198] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:11:22.627] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:11:22.630] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:11:32.795] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:11:32.797] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:11:32.978] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:11:32.980] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:11:33.861] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:11:33.864] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:11:33.866] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:11:33.868] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:11:33.889] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:11:33.890] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:11:33.890] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:11:33.891] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:11:35.112] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:11:35.115] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:11:35.532] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:11:35.536] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:11:40.647] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:11:40.648] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:11:40.780] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:11:40.782] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:11:41.595] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:11:41.595] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:11:41.596] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:11:41.596] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:11:41.616] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:11:41.617] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:11:41.618] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:11:41.618] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:11:43.746] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:11:43.756] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:11:44.189] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:11:44.194] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:11:49.269] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:11:49.271] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:11:49.399] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:11:49.400] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:11:49.402] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:11:49.404] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:11:49.423] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:11:49.423] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:11:49.423] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:11:49.424] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:11:52.362] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:11:52.363] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:11:55.688] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:11:55.689] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:11:56.006] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:11:56.007] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:11:56.772] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:11:56.773] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:12:00.522] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:12:00.522] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:12:00.809] [INFO] default - onTestFail: 0-0:88
+[2023-03-15T19:12:00.811] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:12:00.812] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T19:12:00.812] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:12:00.812] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:12:00.813] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:12:00.819] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:12:00.819] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:12:00.819] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:12:00.820] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:12:02.067] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:12:02.073] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:12:04.744] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:12:04.745] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:12:14.871] [INFO] default - onTestFail: 0-0:93
+[2023-03-15T19:12:14.872] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:12:14.872] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T19:12:14.872] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:12:14.872] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T19:12:14.873] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:12:14.873] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:12:14.873] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:12:14.878] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:12:14.879] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:12:14.879] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:12:14.880] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:12:16.087] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:12:16.090] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:12:20.860] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T19:12:20.861] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T19:12:23.746] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T19:12:23.747] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T19:12:27.067] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T19:12:27.068] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T19:12:27.069] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T19:12:27.069] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T19:12:27.099] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:12:27.187] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T19:12:27.188] [INFO] default - Report Generation started
+[2023-03-15T19:12:27.189] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T19:12:27.190] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T19:12:27.190] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T19:12:27.190] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T19:12:27.191] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T19:12:27.191] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T19:12:27.191] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T19:12:27.192] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T19:12:27.193] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:12:27.654] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:12:27.654] [INFO] default - Json Generation Completed
+[2023-03-15T19:12:27.655] [INFO] default - Report Generation completed
+[2023-03-15T19:20:12.160] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:20:12.164] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:20:12.164] [INFO] default - Report Generation started
+[2023-03-15T19:20:12.165] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:20:12.167] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:20:12.167] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:20:12.181] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:20:12.181] [INFO] default - Json Generation Completed
+[2023-03-15T19:20:12.181] [INFO] default - Report Generation completed
+[2023-03-15T19:20:12.803] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:20:13.186] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:20:13.228] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:20:13.230] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:20:13.232] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:20:13.233] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:20:19.619] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:20:19.624] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:20:20.051] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:20:20.055] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:20:29.689] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:20:29.690] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:20:29.862] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:20:29.864] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:20:30.687] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:20:30.687] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:20:30.688] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:20:30.689] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:20:30.719] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:20:30.719] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:20:30.720] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:20:30.720] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:20:31.989] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:20:31.992] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:20:32.431] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:20:32.436] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:20:37.099] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:20:37.100] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:20:37.233] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:20:37.235] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:20:38.031] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:20:38.032] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:20:38.032] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:20:38.032] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:20:38.048] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:20:38.049] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:20:38.050] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:20:38.050] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:20:39.239] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:20:39.243] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:20:39.658] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:20:39.662] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:20:43.715] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:20:43.717] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:20:43.833] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:20:43.834] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:20:43.834] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:20:43.835] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:20:43.857] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:20:43.857] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:20:43.857] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:20:43.857] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:20:46.476] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:20:46.477] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:20:49.799] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:20:49.800] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:20:49.947] [INFO] default - onTestFail: 0-0:85
+[2023-03-15T19:20:49.949] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:20:49.950] [INFO] default - onTestSkip: 0-0:86
+[2023-03-15T19:20:49.950] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:20:49.950] [INFO] default - onTestSkip: 0-0:87
+[2023-03-15T19:20:49.950] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:20:49.951] [INFO] default - onTestSkip: 0-0:88
+[2023-03-15T19:20:49.951] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:20:49.951] [INFO] default - onTestSkip: 0-0:89
+[2023-03-15T19:20:49.951] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:20:49.952] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:20:49.952] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:20:49.957] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:20:49.958] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:20:49.958] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:20:49.958] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:20:51.154] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:20:51.156] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:20:53.878] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:20:53.880] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:21:00.813] [INFO] default - onTestFail: 0-0:93
+[2023-03-15T19:21:00.815] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:21:00.815] [INFO] default - onTestSkip: 0-0:94
+[2023-03-15T19:21:00.816] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:21:00.817] [INFO] default - onTestSkip: 0-0:95
+[2023-03-15T19:21:00.817] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:21:00.818] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:21:00.818] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:21:00.838] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:21:00.838] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:21:00.838] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:21:00.838] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:21:02.042] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:21:02.046] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:24:30.067] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:24:30.071] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:24:30.071] [INFO] default - Report Generation started
+[2023-03-15T19:24:30.072] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:24:30.073] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:24:30.074] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:24:30.094] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:24:30.095] [INFO] default - Json Generation Completed
+[2023-03-15T19:24:30.095] [INFO] default - Report Generation completed
+[2023-03-15T19:24:30.823] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:24:31.202] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:24:31.247] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:24:31.250] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:24:31.252] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:24:31.253] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:24:40.988] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:24:40.990] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:24:41.423] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:24:41.427] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:24:56.329] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:24:56.333] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:24:56.524] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:24:56.525] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:24:58.290] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:24:58.294] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:24:58.295] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:24:58.296] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:24:58.319] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:24:58.319] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:24:58.320] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:24:58.320] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:24:59.497] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:24:59.504] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:24:59.907] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:24:59.911] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:25:05.654] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:25:05.655] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:25:05.805] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:25:05.806] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:25:06.660] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:25:06.661] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:25:06.662] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:25:06.662] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:25:06.675] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:25:06.675] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:25:06.676] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:25:06.676] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:25:07.883] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:25:07.885] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:25:08.313] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:25:08.318] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:25:13.858] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:25:13.859] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:25:13.979] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:25:13.980] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:25:13.981] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:25:13.981] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:25:13.993] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:25:13.994] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:25:13.994] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:25:13.994] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:25:18.397] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:25:18.398] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:25:21.766] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:25:21.768] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:25:22.044] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:25:22.044] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:25:22.793] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:25:22.793] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:25:26.551] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:25:26.553] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:25:34.855] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T19:25:34.857] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:25:45.644] [INFO] default - onTestFail: 0-0:89
+[2023-03-15T19:25:45.645] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:25:45.646] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:25:45.646] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:25:45.654] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:25:45.654] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:25:45.654] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:25:45.655] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:25:46.918] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:25:46.922] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:25:52.169] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:25:52.170] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:25:56.506] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T19:25:56.507] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:26:04.765] [INFO] default - onTestPass: 0-0:94
+[2023-03-15T19:26:04.767] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:26:15.536] [INFO] default - onTestFail: 0-0:95
+[2023-03-15T19:26:15.536] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:26:15.537] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:26:15.537] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:26:15.545] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:26:15.546] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:26:15.546] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:26:15.546] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:26:16.780] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:26:16.783] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:26:21.547] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T19:26:21.548] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T19:26:25.437] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T19:26:25.438] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T19:26:28.745] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T19:26:28.746] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T19:26:28.747] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T19:26:28.747] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T19:26:28.782] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:26:28.885] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T19:26:28.887] [INFO] default - Report Generation started
+[2023-03-15T19:26:28.888] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T19:26:28.890] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T19:26:28.890] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T19:26:28.890] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T19:26:28.890] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T19:26:28.891] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T19:26:28.891] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T19:26:28.892] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T19:26:28.893] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:26:29.317] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:28:09.282] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:28:09.285] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:28:09.285] [INFO] default - Report Generation started
+[2023-03-15T19:28:09.286] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:28:09.288] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:28:09.289] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:28:09.304] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:28:09.304] [INFO] default - Json Generation Completed
+[2023-03-15T19:28:09.304] [INFO] default - Report Generation completed
+[2023-03-15T19:28:10.066] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:28:10.444] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:28:10.488] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:28:10.490] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:28:10.492] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:28:10.493] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:28:21.455] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:28:21.459] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:28:21.870] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:28:21.876] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:28:36.326] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:28:36.327] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:28:36.506] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:28:36.509] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:28:38.235] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:28:38.237] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:28:38.239] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:28:38.241] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:28:38.262] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:28:38.263] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:28:38.263] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:28:38.263] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:28:39.481] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:28:39.484] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:28:39.897] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:28:39.902] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:28:45.000] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:28:45.002] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:28:45.150] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:28:45.151] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:28:56.849] [INFO] default - onTestFail: 0-0:76
+[2023-03-15T19:28:56.850] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:28:56.851] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:28:56.851] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:28:56.867] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:28:56.868] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:28:56.869] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:28:56.869] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:28:58.070] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:28:58.072] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:28:58.475] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:28:58.478] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:29:02.595] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:29:02.596] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:29:02.732] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:29:02.733] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:29:02.733] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:29:02.734] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:29:02.749] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:29:02.749] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:29:02.749] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:29:02.750] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:29:06.181] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:29:06.183] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:29:09.538] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:29:09.539] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:29:09.824] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:29:09.825] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:29:10.577] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:29:10.579] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:29:14.377] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:29:14.378] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:29:22.709] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T19:29:22.711] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:29:34.377] [INFO] default - onTestFail: 0-0:89
+[2023-03-15T19:29:34.378] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:29:34.379] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:29:34.379] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:29:34.389] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:29:34.390] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:29:34.390] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:29:34.391] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:29:35.582] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:29:35.587] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:29:39.759] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:29:39.761] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:29:43.078] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T19:29:43.079] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:29:51.360] [INFO] default - onTestPass: 0-0:94
+[2023-03-15T19:29:51.361] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:30:03.033] [INFO] default - onTestFail: 0-0:95
+[2023-03-15T19:30:03.034] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:30:03.035] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:30:03.035] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:30:03.050] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:30:03.051] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:30:03.051] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:30:03.051] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:30:04.285] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:30:04.289] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:30:08.539] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T19:30:08.539] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T19:30:11.521] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T19:30:11.522] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T19:30:14.934] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T19:30:14.934] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T19:30:14.935] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T19:30:14.935] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T19:30:14.958] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:30:15.051] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T19:30:15.053] [INFO] default - Report Generation started
+[2023-03-15T19:30:15.053] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T19:30:15.055] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T19:30:15.055] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T19:30:15.055] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T19:30:15.056] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T19:30:15.056] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T19:30:15.056] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T19:30:15.058] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T19:30:15.059] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:30:15.519] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:32:18.396] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:32:18.400] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:32:18.401] [INFO] default - Report Generation started
+[2023-03-15T19:32:18.402] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:32:18.403] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:32:18.404] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:32:18.419] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:32:18.420] [INFO] default - Json Generation Completed
+[2023-03-15T19:32:18.420] [INFO] default - Report Generation completed
+[2023-03-15T19:32:19.115] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:32:19.519] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:32:19.559] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:32:19.560] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:32:19.561] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:32:19.561] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:32:25.212] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:32:25.214] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:32:25.633] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:32:25.638] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:32:35.332] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:32:35.334] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:32:35.567] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:32:35.569] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:32:36.793] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:32:36.794] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:32:36.796] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:32:36.797] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:32:36.824] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:32:36.825] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:32:36.826] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:32:36.826] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:32:38.678] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:32:38.682] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:32:39.158] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:32:39.162] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:32:43.824] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:32:43.825] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:32:43.973] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:32:43.974] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:32:45.194] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:32:45.195] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:32:45.195] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:32:45.195] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:32:45.215] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:32:45.216] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:32:45.216] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:32:45.216] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:32:46.487] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:32:46.491] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:32:46.919] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:32:46.925] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:32:51.116] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:32:51.117] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:32:51.241] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:32:51.242] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:32:51.242] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:32:51.243] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:32:51.258] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:32:51.258] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:32:51.259] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:32:51.259] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:32:53.722] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:32:53.723] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:32:57.110] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:32:57.111] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:32:57.404] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:32:57.406] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:32:58.164] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:32:58.165] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:33:01.908] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:33:01.909] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:33:10.199] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T19:33:10.200] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:33:21.385] [INFO] default - onTestFail: 0-0:89
+[2023-03-15T19:33:21.386] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T19:33:21.387] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T19:33:21.387] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T19:33:21.394] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T19:33:21.394] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T19:33:21.394] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T19:33:21.394] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T19:33:22.690] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T19:33:22.694] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T19:33:26.703] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T19:33:26.704] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T19:33:29.035] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T19:33:29.037] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T19:33:37.333] [INFO] default - onTestPass: 0-0:94
+[2023-03-15T19:33:37.335] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T19:33:48.518] [INFO] default - onTestFail: 0-0:95
+[2023-03-15T19:33:48.519] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T19:33:48.520] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T19:33:48.520] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T19:33:48.540] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T19:33:48.541] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T19:33:48.541] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T19:33:48.541] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T19:33:49.776] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T19:33:49.783] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T19:33:55.044] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T19:33:55.046] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T19:33:58.555] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T19:33:58.557] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T19:34:01.883] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T19:34:01.885] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T19:34:01.885] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T19:34:01.886] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T19:34:01.923] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:34:02.032] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T19:34:02.035] [INFO] default - Report Generation started
+[2023-03-15T19:34:02.036] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T19:34:02.037] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T19:34:02.037] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T19:34:02.037] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T19:34:02.038] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T19:34:02.038] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T19:34:02.039] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T19:34:02.041] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T19:34:02.042] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:34:02.506] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json
+[2023-03-15T19:39:20.651] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:39:20.654] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:39:20.655] [INFO] default - Report Generation started
+[2023-03-15T19:39:20.656] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:39:20.658] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:39:20.659] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:39:20.678] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:39:20.679] [INFO] default - Json Generation Completed
+[2023-03-15T19:39:20.679] [INFO] default - Report Generation completed
+[2023-03-15T19:39:21.265] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:39:21.776] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:39:21.848] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:39:21.850] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:39:21.856] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:39:21.858] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:39:27.735] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:39:27.744] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:39:28.198] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:39:28.202] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:39:38.176] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:39:38.177] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:39:38.396] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:39:38.399] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:39:39.656] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:39:39.657] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:39:39.659] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:39:39.660] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:39:39.677] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:39:39.677] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:39:39.678] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:39:39.679] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:39:41.448] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:39:41.453] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:39:41.911] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:39:41.920] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:39:47.232] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:39:47.233] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:39:47.393] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:39:47.396] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:39:49.710] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:39:49.713] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:39:49.715] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:39:49.716] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:39:49.742] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:39:49.742] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:39:49.744] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:39:49.744] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:39:51.067] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:39:51.072] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:39:51.571] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:39:51.573] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:39:56.312] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:39:56.315] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:39:56.460] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:39:56.462] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:39:56.463] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:39:56.463] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:39:56.474] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:39:56.475] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:39:56.475] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:39:56.476] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:39:59.602] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:39:59.603] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:40:03.056] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:40:03.057] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:40:03.482] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:40:03.483] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:40:04.428] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:40:04.430] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:42:47.470] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:42:48.742] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:42:57.079] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T19:43:18.563] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T19:43:19.805] [INFO] default - onTestPass: 0-0:89
+[2023-03-15T19:43:47.804] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:43:47.808] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:43:47.809] [INFO] default - Report Generation started
+[2023-03-15T19:43:47.809] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:43:47.812] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:43:47.812] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:43:47.943] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:43:47.945] [INFO] default - Json Generation Completed
+[2023-03-15T19:43:47.945] [INFO] default - Report Generation completed
+[2023-03-15T19:43:48.660] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:43:49.131] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:43:49.172] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:43:49.174] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:43:49.177] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:43:49.177] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:43:56.116] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:43:56.120] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:43:56.622] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:43:56.627] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:44:08.167] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:44:08.169] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:44:08.391] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:44:08.392] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:44:09.646] [INFO] default - onTestPass: 0-0:70
+[2023-03-15T19:44:09.647] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:44:09.650] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:44:09.651] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:44:09.678] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:44:09.678] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:44:09.680] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:44:09.680] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:44:11.094] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:44:11.100] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:44:11.565] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:44:11.569] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:44:16.883] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:44:16.886] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:44:17.084] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:44:17.085] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:44:18.363] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:44:18.364] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:44:18.365] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:44:18.366] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:44:18.389] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:44:18.391] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:44:18.392] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:44:18.392] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:44:19.734] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:44:19.737] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:44:20.213] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:44:20.217] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:44:25.212] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:44:25.213] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:44:25.331] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:44:25.332] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:44:25.333] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:44:25.333] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:44:25.350] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:44:25.350] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:44:25.351] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:44:25.351] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:44:28.591] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:44:28.593] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:44:32.048] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:44:32.049] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:44:32.564] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:44:32.565] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:44:33.561] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:44:33.562] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:53:53.329] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:53:53.336] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:53:53.338] [INFO] default - Report Generation started
+[2023-03-15T19:53:53.338] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:53:53.343] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:53:53.344] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:53:53.378] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:53:53.378] [INFO] default - Json Generation Completed
+[2023-03-15T19:53:53.378] [INFO] default - Report Generation completed
+[2023-03-15T19:53:54.140] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:53:54.829] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:53:54.885] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:53:54.886] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:53:54.891] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:53:54.892] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:54:02.506] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:54:02.511] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:54:09.646] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:54:09.647] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:54:13.559] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:54:13.560] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:54:13.753] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:54:13.755] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:54:52.798] [INFO] default - onTestFail: 0-0:70
+[2023-03-15T19:54:52.800] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:54:52.802] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:54:52.803] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:54:52.814] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:54:52.815] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:54:52.816] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:54:52.816] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:54:54.206] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:54:54.209] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:54:55.638] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:54:55.639] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:54:59.610] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:54:59.612] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:54:59.820] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:54:59.821] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:55:22.413] [INFO] default - onTestFail: 0-0:76
+[2023-03-15T19:55:22.416] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:55:22.417] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:55:22.417] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:55:22.428] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:55:22.428] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:55:22.429] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:55:22.429] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:55:23.783] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:55:23.787] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:55:25.234] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:55:25.236] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:55:28.638] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:55:28.639] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:55:28.799] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:55:28.801] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:55:28.802] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:55:28.802] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:55:28.814] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:55:28.814] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:55:28.816] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:55:28.816] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:55:32.021] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:55:32.022] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:55:35.520] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:55:35.521] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:55:36.024] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:55:36.025] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:55:37.136] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:55:37.137] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:55:40.973] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:55:40.974] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:57:50.570] [INFO] default - onRunnerStart: 0-1
+[2023-03-15T19:57:50.573] [INFO] default - onRunnerEnd: 0-1
+[2023-03-15T19:57:50.573] [INFO] default - Report Generation started
+[2023-03-15T19:57:50.574] [ERROR] default - Invalid Metrics computed: undefined -- undefined
+[2023-03-15T19:57:50.575] [INFO] default - Generated 1 specs, 0 suites, 
+[2023-03-15T19:57:50.576] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:57:50.595] [INFO] default - Json write completed: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-1.json
+[2023-03-15T19:57:50.595] [INFO] default - Json Generation Completed
+[2023-03-15T19:57:50.595] [INFO] default - Report Generation completed
+[2023-03-15T19:57:51.212] [INFO] default - onRunnerStart: 0-0
+[2023-03-15T19:57:51.746] [INFO] default - onSuiteStart: 0-0:applyLeave.feature:1:1
+[2023-03-15T19:57:51.790] [INFO] default - onSuiteStart: 0-0:0
+[2023-03-15T19:57:51.791] [INFO] default - onHookStart: 0-0:127
+[2023-03-15T19:57:51.796] [INFO] default - onHookEnd: 0-0:127
+[2023-03-15T19:57:51.797] [INFO] default - onTestStart: 0-0:66
+[2023-03-15T19:57:58.137] [INFO] default - onTestPass: 0-0:66
+[2023-03-15T19:57:58.140] [INFO] default - onTestStart: 0-0:67
+[2023-03-15T19:58:05.210] [INFO] default - onTestPass: 0-0:67
+[2023-03-15T19:58:05.211] [INFO] default - onTestStart: 0-0:68
+[2023-03-15T19:58:09.116] [INFO] default - onTestPass: 0-0:68
+[2023-03-15T19:58:09.118] [INFO] default - onTestStart: 0-0:69
+[2023-03-15T19:58:09.372] [INFO] default - onTestPass: 0-0:69
+[2023-03-15T19:58:09.375] [INFO] default - onTestStart: 0-0:70
+[2023-03-15T19:58:31.480] [INFO] default - onTestFail: 0-0:70
+[2023-03-15T19:58:31.483] [INFO] default - onHookStart: 0-0:133
+[2023-03-15T19:58:31.484] [INFO] default - onHookEnd: 0-0:133
+[2023-03-15T19:58:31.485] [INFO] default - onSuiteEnd: 0-0:0
+[2023-03-15T19:58:31.496] [INFO] default - onSuiteStart: 0-0:1
+[2023-03-15T19:58:31.497] [INFO] default - onHookStart: 0-0:135
+[2023-03-15T19:58:31.498] [INFO] default - onHookEnd: 0-0:135
+[2023-03-15T19:58:31.498] [INFO] default - onTestStart: 0-0:72
+[2023-03-15T19:58:32.894] [INFO] default - onTestPass: 0-0:72
+[2023-03-15T19:58:32.897] [INFO] default - onTestStart: 0-0:73
+[2023-03-15T19:58:34.277] [INFO] default - onTestPass: 0-0:73
+[2023-03-15T19:58:34.278] [INFO] default - onTestStart: 0-0:74
+[2023-03-15T19:58:38.203] [INFO] default - onTestPass: 0-0:74
+[2023-03-15T19:58:38.204] [INFO] default - onTestStart: 0-0:75
+[2023-03-15T19:58:38.448] [INFO] default - onTestPass: 0-0:75
+[2023-03-15T19:58:38.449] [INFO] default - onTestStart: 0-0:76
+[2023-03-15T19:59:01.763] [INFO] default - onTestPass: 0-0:76
+[2023-03-15T19:59:01.766] [INFO] default - onHookStart: 0-0:141
+[2023-03-15T19:59:01.767] [INFO] default - onHookEnd: 0-0:141
+[2023-03-15T19:59:01.767] [INFO] default - onSuiteEnd: 0-0:1
+[2023-03-15T19:59:01.790] [INFO] default - onSuiteStart: 0-0:2
+[2023-03-15T19:59:01.790] [INFO] default - onHookStart: 0-0:143
+[2023-03-15T19:59:01.791] [INFO] default - onHookEnd: 0-0:143
+[2023-03-15T19:59:01.791] [INFO] default - onTestStart: 0-0:78
+[2023-03-15T19:59:03.117] [INFO] default - onTestPass: 0-0:78
+[2023-03-15T19:59:03.123] [INFO] default - onTestStart: 0-0:79
+[2023-03-15T19:59:04.596] [INFO] default - onTestPass: 0-0:79
+[2023-03-15T19:59:04.597] [INFO] default - onTestStart: 0-0:80
+[2023-03-15T19:59:07.472] [INFO] default - onTestPass: 0-0:80
+[2023-03-15T19:59:07.473] [INFO] default - onTestStart: 0-0:81
+[2023-03-15T19:59:07.629] [INFO] default - onTestPass: 0-0:81
+[2023-03-15T19:59:07.630] [INFO] default - onHookStart: 0-0:148
+[2023-03-15T19:59:07.631] [INFO] default - onHookEnd: 0-0:148
+[2023-03-15T19:59:07.631] [INFO] default - onSuiteEnd: 0-0:2
+[2023-03-15T19:59:07.640] [INFO] default - onSuiteStart: 0-0:3
+[2023-03-15T19:59:07.640] [INFO] default - onHookStart: 0-0:150
+[2023-03-15T19:59:07.641] [INFO] default - onHookEnd: 0-0:150
+[2023-03-15T19:59:07.641] [INFO] default - onTestStart: 0-0:83
+[2023-03-15T19:59:10.403] [INFO] default - onTestPass: 0-0:83
+[2023-03-15T19:59:10.404] [INFO] default - onTestStart: 0-0:84
+[2023-03-15T19:59:13.946] [INFO] default - onTestPass: 0-0:84
+[2023-03-15T19:59:13.947] [INFO] default - onTestStart: 0-0:85
+[2023-03-15T19:59:14.420] [INFO] default - onTestPass: 0-0:85
+[2023-03-15T19:59:14.421] [INFO] default - onTestStart: 0-0:86
+[2023-03-15T19:59:15.505] [INFO] default - onTestPass: 0-0:86
+[2023-03-15T19:59:15.506] [INFO] default - onTestStart: 0-0:87
+[2023-03-15T19:59:19.336] [INFO] default - onTestPass: 0-0:87
+[2023-03-15T19:59:19.338] [INFO] default - onTestStart: 0-0:88
+[2023-03-15T19:59:48.472] [INFO] default - onTestPass: 0-0:88
+[2023-03-15T19:59:48.474] [INFO] default - onTestStart: 0-0:89
+[2023-03-15T20:00:14.871] [INFO] default - onTestPass: 0-0:89
+[2023-03-15T20:00:14.877] [INFO] default - onHookStart: 0-0:158
+[2023-03-15T20:00:14.879] [INFO] default - onHookEnd: 0-0:158
+[2023-03-15T20:00:14.879] [INFO] default - onSuiteEnd: 0-0:3
+[2023-03-15T20:00:14.902] [INFO] default - onSuiteStart: 0-0:4
+[2023-03-15T20:00:14.902] [INFO] default - onHookStart: 0-0:160
+[2023-03-15T20:00:14.904] [INFO] default - onHookEnd: 0-0:160
+[2023-03-15T20:00:14.904] [INFO] default - onTestStart: 0-0:91
+[2023-03-15T20:00:16.290] [INFO] default - onTestPass: 0-0:91
+[2023-03-15T20:00:16.294] [INFO] default - onTestStart: 0-0:92
+[2023-03-15T20:00:19.642] [INFO] default - onTestPass: 0-0:92
+[2023-03-15T20:00:19.644] [INFO] default - onTestStart: 0-0:93
+[2023-03-15T20:00:22.679] [INFO] default - onTestPass: 0-0:93
+[2023-03-15T20:00:22.680] [INFO] default - onTestStart: 0-0:94
+[2023-03-15T20:01:00.216] [INFO] default - onTestPass: 0-0:94
+[2023-03-15T20:01:00.218] [INFO] default - onTestStart: 0-0:95
+[2023-03-15T20:01:30.025] [INFO] default - onTestPass: 0-0:95
+[2023-03-15T20:01:30.026] [INFO] default - onHookStart: 0-0:166
+[2023-03-15T20:01:30.027] [INFO] default - onHookEnd: 0-0:166
+[2023-03-15T20:01:30.029] [INFO] default - onSuiteEnd: 0-0:4
+[2023-03-15T20:01:30.046] [INFO] default - onSuiteStart: 0-0:5
+[2023-03-15T20:01:30.046] [INFO] default - onHookStart: 0-0:168
+[2023-03-15T20:01:30.047] [INFO] default - onHookEnd: 0-0:168
+[2023-03-15T20:01:30.047] [INFO] default - onTestStart: 0-0:97
+[2023-03-15T20:01:32.227] [INFO] default - onTestPass: 0-0:97
+[2023-03-15T20:01:32.231] [INFO] default - onTestStart: 0-0:98
+[2023-03-15T20:01:37.787] [INFO] default - onTestPass: 0-0:98
+[2023-03-15T20:01:37.789] [INFO] default - onTestStart: 0-0:99
+[2023-03-15T20:01:40.928] [INFO] default - onTestPass: 0-0:99
+[2023-03-15T20:01:40.930] [INFO] default - onTestStart: 0-0:100
+[2023-03-15T20:01:44.404] [INFO] default - onTestPass: 0-0:100
+[2023-03-15T20:01:44.406] [INFO] default - onHookStart: 0-0:173
+[2023-03-15T20:01:44.408] [INFO] default - onHookEnd: 0-0:173
+[2023-03-15T20:01:44.408] [INFO] default - onSuiteEnd: 0-0:5
+[2023-03-15T20:01:44.433] [INFO] default - onSuiteEnd: 0-0:applyLeave.feature:1:1
+[2023-03-15T20:01:44.527] [INFO] default - onRunnerEnd: 0-0
+[2023-03-15T20:01:44.534] [INFO] default - Report Generation started
+[2023-03-15T20:01:44.535] [INFO] default - Included metrics for suite: 0-0 applyLeave.feature:1:1
+[2023-03-15T20:01:44.537] [INFO] default - Included metrics for suite: 0-0 0
+[2023-03-15T20:01:44.538] [INFO] default - Included metrics for suite: 0-0 1
+[2023-03-15T20:01:44.538] [INFO] default - Included metrics for suite: 0-0 2
+[2023-03-15T20:01:44.538] [INFO] default - Included metrics for suite: 0-0 3
+[2023-03-15T20:01:44.539] [INFO] default - Included metrics for suite: 0-0 4
+[2023-03-15T20:01:44.539] [INFO] default - Included metrics for suite: 0-0 5
+[2023-03-15T20:01:44.544] [INFO] default - Generated 1 specs, 1 suites, 
+[2023-03-15T20:01:44.545] [INFO] default - Json report write starting: C:\Users\JeevaSubramanian\Downloads\RevertWDIO\WDIO\reports\html-reports\report-0-0.json

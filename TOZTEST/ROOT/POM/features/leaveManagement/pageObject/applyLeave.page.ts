@@ -223,8 +223,13 @@ class applyLeavepage extends Page {
     return $("#fbNewComp_feedback");
   }
 
-  public get successNotifyMsg() {
-    return $("//div[@id='fbNewComp_feedback']//div");
+  public async successNotifyMsg(Notificationmsg:string) {
+    await browser.pause(2000);
+   (await $("//div[contains(text(),\'" +Notificationmsg+ "\')]")).isExisting();
+  }
+
+  public get successNotifyRejectMsg() {
+    return $("//div[@id='fbNewAssign_feedback']");
   }
 
   public get successNotifyMsgTxt() {

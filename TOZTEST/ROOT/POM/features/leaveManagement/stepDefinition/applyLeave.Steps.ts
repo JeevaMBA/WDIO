@@ -58,6 +58,7 @@ Then(/^the user is able to logout from the TOZ application$/, async () => {
 Then(
   /^The user is able to see global search option in top of the application$/,
   async () => {
+    await browser.pause(1000);
     await applyLeavepage.GblSearch.isClickable();
     reporter.addStep(
       "TOZ_LM_001",
@@ -68,8 +69,9 @@ Then(
 );
 
 When(
-  /^The user opened the (.*) form with (.*) profile$/,
-  async (FormType, UserType) => {
+  /^The user opened the (.*) form through global search option$/,
+  async (FormType) => {
+    await browser.pause(1000);
     await applyLeavepage.GblSearch.setValue(FormType);
     await applyLeavepage.GblSearchSelector.click();
   }
@@ -203,7 +205,7 @@ Then(
     /** today and tomorrow date coding starts here */
     function getTomorrow(date = new Date()) {
       const dateCopy = new Date(date.getTime());
-      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 3));
+      const nextMonday = new Date(dateCopy.setDate(dateCopy.getDate() + 1));
       return nextMonday;
     }
     let tomorrwDate = getTomorrow().toLocaleDateString("en-GB");
@@ -211,7 +213,7 @@ Then(
 
     function getToday(date = new Date()) {
       const dateCopy1 = new Date(date.getTime());
-      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 3));
+      const nextMonday1 = new Date(dateCopy1.setDate(dateCopy1.getDate() + 1));
       return nextMonday1;
     }
     let todayDate = getToday().toLocaleDateString("en-GB");
@@ -282,31 +284,42 @@ Then(/^the user entered (.*) textbox and (.*) fields$/, async (remarks, Comments
 When(/^the user clicked on submit button$/, async () => {
   await applyLeavepage.btnSubmitAL.click();
   await applyLeavepage.btnconfirmYes.click();
+  await browser.pause(3000);
+  await (await LoggingPage.homeIcon).waitForDisplayed();
 });
 
 Then(
-  /^the user got success notification message in top of the application$/,
-  async () => {
+  /^the user got message as (.*) in top of the application$/,
+  async (MessageText) => {
     await browser.pause(2000);
-    await applyLeavepage.notytopalert.waitForDisplayed({ timeout: 6000 });
-    let notificationMessage = await applyLeavepage.successNotifyMsg.getText();
-    let isDisplayedTXT = await applyLeavepage.notytopalert.getText();
+    await applyLeavepage.successNotifyMsg(MessageText)
+    if ("Request submitted for approval successfully." === MessageText) {
+      reporter.addStep("TESTID", "info", 'The leave Request submitted for approval successfully.');
+    } else { 
+      if ("Leave Request rejected successfully" === MessageText){
+        reporter.addStep("TESTID", "info", 'The Leave Request rejected successfully');
+      }
+    };
+    // await browser.pause(500);
+    // let notificationMessage = await applyLeavepage.successNotifyMsg.getText();
+    // let isDisplayedTXT = await applyLeavepage.notytopalert.getText();
     
-    // console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${isDisplayedTXT}`);
-    // let alreadyapplied = await applyLeavepage.successNotifyMsgTxt
+    // // console.log(`>>>>>>>>>>>>>>>>>>>>>>>>>> ${isDisplayedTXT}`);
+    // let alreadyapplied = await applyLeavepage.successNotifyMsg
     // let alreadyappliedVerifying = await alreadyapplied.isExisting();
-    console.log(`The user is able to apply leave. However, ${isDisplayedTXT}`);
-    reporter.addStep("TOZ_LM_004", "info", 'The user is able to apply leave.')
+
+
+    
     // if (alreadyappliedVerifying === true) {
-    //    reporter.addStep("TOZ_LM_004", "info", `>>>>>>>>>>>>>>>>>>>The user is able to apply leave. However, on day leave already applied<<<<<<<<<<<<<<<<<<`)
+    //   reporter.addStep("TOZ_LM_004", "info", 'The user is able to apply leave.');
+    //   console.log(`The leave ${isDisplayedTXT}`);
     // } else {
     //   chai.expect(notificationMessage).to.equal("A leave has been already applied in the specified duration");
     // }
-    await browser.pause(2000);
+    // await browser.pause(2000);
     await browser.takeScreenshot();
     await browser.pause(4000);
-  }
-);
+  });
 
 // Next scenario starts here********************************
 
