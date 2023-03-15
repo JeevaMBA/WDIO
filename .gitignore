@@ -12,7 +12,4 @@ package.json
 package-lock.json
 tsconfig.json
 wdio.conf.ts
-.package.json
-.package-lock.json
-.tsconfig.json
-.wdio.conf.ts
+wdio.conf.js
