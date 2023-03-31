@@ -30,7 +30,7 @@ class LoggingPage extends Page {
     }
 
     public get btnsignout() {
-        return $("//li[@id='liitem2btnlistLog'][normalize-space()='Signout']")
+        return $("//li[normalize-space()='Signout']")
     }
     
     /********************************************************************************************************************************
