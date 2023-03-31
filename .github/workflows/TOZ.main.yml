@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 18.x
       - uses: actions/checkout@v3
-      - uses: fleshgrinder/setup-java@v3
+      - uses: fleshgrinder/setup-java@v17
         with:
           distribution: 'temurin'
           java-version: '17'
