@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       RUNNER: ${{secrets.RUNNER}}
       LOG_LEVEL: ${{secrets.LOG_LEVEL}}
@@ -33,7 +33,7 @@ jobs:
       - name: Test Report
         run: npm run report
       - name: Allure Report
-        run: java --version
+        run: allure generate allure-results
       - uses: actions/upload-artifact@v3
         with:
           name: HTML-report
