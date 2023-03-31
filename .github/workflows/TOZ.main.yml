@@ -8,11 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: windows-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        java-version: [ '17.0.x' ]
+    runs-on: macos-latest
     env:
       RUNNER: ${{secrets.RUNNER}}
       LOG_LEVEL: ${{secrets.LOG_LEVEL}}
@@ -31,12 +27,11 @@ jobs:
         with:
           node-version: 18.x
       - uses: actions/checkout@v3.5.0
-      - name: Set up JDK ${{ matrix.java-version }}
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: ${{ matrix.java-version }}
-
+          java-version: '17'
+          cache: 'gradle'
       - run: java -version
       
       - name: Install dependencies
