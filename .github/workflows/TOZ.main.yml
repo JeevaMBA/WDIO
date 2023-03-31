@@ -31,7 +31,6 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
-          cache: 'gradle'
       - run: java -version
       
       - name: Install dependencies
