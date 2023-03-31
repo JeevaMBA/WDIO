@@ -418,7 +418,7 @@ export const config: Options.Testrunner = {
      * @param {<Object>} results object containing test results
      */
     onComplete: function(exitCode, config, capabilities, results) {
-        // if (process.env.RUNNER === 'Local') {
+        if (process.env.RUNNER === 'Local') {
         const reportError = new Error('Could not generate Allure report')
         const generation = allure(['generate', 'allure-results' ])
         return new Promise<void>((resolve, reject) => {
@@ -434,7 +434,7 @@ export const config: Options.Testrunner = {
                 resolve()
             })
         });
-    //};
+    };
     },
     /**
     * Gets executed when a refresh happens.
