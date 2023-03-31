@@ -30,6 +30,10 @@ jobs:
         run: npm install
       - name: Executing tests
         run: npm run TestRun
+      - uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure-report
       # - name: Get Allure history
       #   uses: actions/checkout@v2
       #   if: always()
