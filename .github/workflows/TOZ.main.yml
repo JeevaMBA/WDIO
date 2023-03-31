@@ -39,8 +39,8 @@ jobs:
         run: npm run TestRun
       - name: Test Report
         run: npm run report
-      - name: Allure Report
-        run: allure generate allure-results
+      # - name: Allure Report
+      #   run: allure generate allure-results
       - uses: actions/upload-artifact@v3
         with:
           name: HTML-report
