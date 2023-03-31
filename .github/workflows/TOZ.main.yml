@@ -36,8 +36,6 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: ${{ matrix.java-version }}
-      - name: Build with Gradle
-        run: ./gradlew build buildDeb buildRpm
 
       - run: java -version
       
