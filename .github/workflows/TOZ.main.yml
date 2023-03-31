@@ -22,6 +22,13 @@ jobs:
       PUBLISH_DIR: allure-history
     steps:
       - uses: actions/checkout@v3
+      - uses: nanasess/setup-chromedriver@v2
+        with:
+          chromedriver-version: '88.0.4324.96'
+      - run: |
+          export DISPLAY=:99
+          chromedriver --url-base=/wd/hub &
+          sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
