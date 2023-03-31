@@ -115,12 +115,12 @@ export const config: Options.Testrunner = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true
-        // "goog:chromeOptions":{
-        //     args: headless ==="Y" ? ["--disable-web-security", "--headless", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"] : ["--disable-web-security",
-        //     "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"]
-        // },
-        // timeouts: { implicit: 30000, pageLoad: 30000, script: 40000 },
+        acceptInsecureCerts: true,
+        "goog:chromeOptions":{
+            args: headless ==="Y" ? ["--disable-web-security", "--headless", "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"] : ["--disable-web-security",
+            "--disable-dev-shm-usage", "--disable-gpu-sandbox", "--window-size:1920,1080", "--no-sandbox"]
+        },
+        timeouts: { implicit: 30000, pageLoad: 30000, script: 40000 },
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -173,7 +173,7 @@ export const config: Options.Testrunner = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ['chromedriver'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -184,10 +184,10 @@ export const config: Options.Testrunner = {
     framework: 'cucumber',
     //
     // The number of times to retry the entire specfile when it fails as a whole
-    specFileRetries: 1,
+        specFileRetries: 1,
     //
     // Delay in seconds between the spec file retry attempts
-    pecFileRetriesDelay: 60,
+         specFileRetriesDelay: 60,
     //
     // Whether or not retried specfiles should be retried immediately or deferred to the end of the queue
     // specFileRetriesDeferred: false,

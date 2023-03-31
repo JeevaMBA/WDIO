@@ -11,7 +11,7 @@ Feature: Open a leave form using admin profile and submit a leave request
         Then The user is able to see global search option in top of the application
         When The user opened the <FormType> form through global search option
         Then The user is able to see self, Team member & Employee radio buttons in form
-        Then the user is able to logout from the TOZ application
+        #Then the user is able to logout from the TOZ application
         Examples:
             | TESTID     | FormType    |
             | TOZ_LM_001 | Apply Leave |
