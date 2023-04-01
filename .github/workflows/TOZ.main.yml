@@ -62,3 +62,4 @@ jobs:
       #   if: always()
       #   uses: peaceiris/actions-gh-pages@v2
       #   uses: peaceiris/actions-gh-pages@v2
+      #   C:\Program Files\Google\Chrome\Application>chrome.exe --allow-file-access-from-files
