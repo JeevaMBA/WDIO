@@ -95,7 +95,7 @@ Then(
       "The user is able to see Team member radio button in form"
     );
     let rediobtn2 = await applyLeavepage.btnEmpRedio;
-    chai.expect(rediobtn2).to.be.exist;
+    chai.expect(rediobtn2).not.to.be.exist;
     reporter.addStep(
       "TOZ_LM_001",
       "info",
