@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: windows-latest
     env:
       RUNNER: ${{secrets.RUNNER}}
       LOG_LEVEL: ${{secrets.LOG_LEVEL}}
@@ -37,11 +37,15 @@ jobs:
       - name: Allure Report
         run: allure generate allure-results
       - uses: actions/upload-artifact@v3
+        if: always()
+        continue-on-error: true
         with:
-          name: HTML-report
-          path: |
-            reports/html-reports/
-            allure-report
+          name: HTML Report
+          path: reports/html-reports/
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Allure Report
+          path: allure-report
       # - name: Get Allure history
       #   uses: actions/checkout@v2
       #   if: always()
