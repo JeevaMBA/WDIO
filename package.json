@@ -9,8 +9,10 @@
     "@wdio/dot-reporter": "^8.4.0",
     "@wdio/junit-reporter": "^8.4.0",
     "@wdio/local-runner": "latest",
+    "@wdio/selenium-standalone-service": "^8.6.8",
     "@wdio/spec-reporter": "^8.3.x",
     "allure-commandline": "^2.21.0",
+    "allure-js-commons": "^2.1.0",
     "chai": "^4.3.7",
     "chromedriver": "^110.0.0",
     "dotenv": "^16.0.3",
@@ -22,8 +24,7 @@
     "wdio-geckodriver-service": "^4.1.0",
     "wdio-html-nice-reporter": "^8.1.0",
     "wdio-wait-for": "^3.0.2",
-    "winston": "^3.8.2",
-    "@wdio/selenium-standalone-service": "^8.6.8"
+    "winston": "^3.8.2"
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
