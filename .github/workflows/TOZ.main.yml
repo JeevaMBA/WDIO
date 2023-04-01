@@ -35,6 +35,7 @@ jobs:
       
       - name: Install dependencies
         run: npm install
+      - name: Install Allure
         run: npm install -g allure-commandline --save-dev
       - name: Executing tests
         run: npm run TestRun
