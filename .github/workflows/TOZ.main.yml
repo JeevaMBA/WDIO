@@ -38,10 +38,12 @@ jobs:
         run: allure generate allure-results
       - uses: actions/upload-artifact@v3
         with:
-          name: HTML-report
-          path: |
-            reports/html-reports/
-            allure-report
+          name: HTML Report
+          path: reports/html-reports/
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Allure Report
+          path: allure-report
       # - name: Get Allure history
       #   uses: actions/checkout@v2
       #   if: always()
